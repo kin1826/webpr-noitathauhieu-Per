@@ -1,0 +1,654 @@
+{
+  "cards": [
+    {
+      "id": "noi-hay-nam-01",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Ấn tượng đầu tiên của Bạn về nhóm bạn này là gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy kể về buổi sáng của Bạn như đang giới thiệu trailer phim."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-02",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn quý nhất điều gì ở một người bạn thân?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy ngân nga một đoạn nhạc để mọi người đoán tên bài."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-03",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Kỷ niệm nào với bạn bè khiến Bạn nhớ nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nhảy tự do trong 10 giây, có thể nhảy tại chỗ hoặc ngồi nhảy."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-04",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Gần đây Bạn nghe bài hát nào nhiều nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói một lời khen chân thành với người ngồi bên trái."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-05",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Một điều nhỏ nào luôn khiến Bạn vui lên?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy quảng cáo một món đồ gần đó như thể nó là sản phẩm cao cấp."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-06",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn bè thường trêu Bạn về thói quen nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tạo dáng như đang chụp bìa album và tự đặt tên album."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-07",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Ai trong nhóm là người Bạn thấy dễ tâm sự nhất? Vì sao?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn tả vẻ mặt của Bạn khi đang đói."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-08",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn học thêm kỹ năng nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy làm MC giới thiệu lượt chơi tiếp theo."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-09",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Gần đây Bạn tự hào nhất về điều gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tạo ba biểu cảm gương mặt theo ba emoji do nhóm chọn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-10",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Lần gần nhất Bạn cười thật nhiều là khi nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hát một câu trong bài Bạn thích bằng giọng thật kịch tính."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-11",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có tài lẻ nào ít người biết không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy kể một câu chuyện ngắn có ba từ do nhóm chọn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-12",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Nếu được đi du lịch ngay ngày mai, Bạn muốn đến đâu?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy dự báo thời tiết cho căn phòng như một biên tập viên truyền hình."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-13",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có nỗi sợ nhỏ nào hơi buồn cười không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn tả một sở thích của Bạn bằng hành động để mọi người đoán."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-14",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có thói quen nhỏ nào Bạn đang muốn thay đổi không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nghĩ ra và đọc một khẩu hiệu ngắn cho nhóm bạn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-15",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Lời khen nào Bạn từng nhận mà vẫn nhớ đến giờ?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy đọc một câu líu lưỡi ba lần, mỗi lần nhanh hơn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-16",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Mọi người thường hiểu nhầm điều gì về Bạn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy vẽ một ngôi nhà bằng tay không thuận."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-17",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Kỷ niệm tuổi thơ nào khiến Bạn vui nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy phát biểu nhận giải cho danh hiệu do nhóm đặt ra."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-18",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Theo Bạn, điều gì quan trọng nhất trong tình bạn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy catwalk vài bước như đang trình diễn thời trang."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-19",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Nếu mở một quán nhỏ, Bạn sẽ đặt tên quán là gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy bình luận lượt chơi tiếp theo như bình luận viên thể thao."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-20",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Nếu có một ngày hoàn toàn rảnh, Bạn muốn làm gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy dùng một món đồ gần đó làm micro và giới thiệu bản thân."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-21",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Nếu được chọn một người trong nhóm đi du lịch cùng, Bạn chọn ai? Vì sao?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy giữ một tư thế thật ấn tượng trong 10 giây."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-22",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì khiến Bạn cảm thấy thoải mái khi ở cạnh người khác?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tự nghĩ một động tác chào và biểu diễn cho cả nhóm xem."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-23",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Một lời khuyên Bạn từng nghe mà thấy hữu ích là gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy kể tên năm món ăn trong vòng 10 giây."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-24",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn còn nhớ gì về lần đầu gặp một người trong nhóm?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tạo hiệu ứng âm thanh cho cảnh mở một cánh cửa bí ẩn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-25",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Nếu chỉ được mang theo một món đồ cho chuyến đi dài, Bạn chọn gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy giới thiệu một món ăn tưởng tượng như nhân viên nhà hàng."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-26",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Nếu sống trong một bộ phim, Bạn muốn phim thuộc thể loại nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói ba lời khen chân thành dành cho những người trong nhóm."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-27",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn bạn bè nhớ đến mình vì điều gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy kể một câu chuyện cười ngắn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-28",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Hôm nay Bạn biết ơn điều gì nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy quảng cáo bộ bài này trong 15 giây như đang quay TVC."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-29",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn cả nhóm cùng làm hoạt động gì một lần?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói tên mình bằng ba cảm xúc khác nhau do nhóm chọn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-30",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Khi hồi hộp, Bạn thường làm gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy đóng vai robot và tự giới thiệu bản thân trong 15 giây."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-31",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Món ăn nào gắn với một kỷ niệm đẹp của Bạn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy phỏng vấn một chiếc ghế như thể nó là khách mời nổi tiếng."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-32",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Nếu được sống lại một ngày vui, Bạn chọn ngày nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy làm một bài thơ bốn câu ngắn về nhóm bạn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-33",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Khi cần xin lời khuyên, Bạn thường tìm đến ai?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy kể một chuyện trong 15 giây mà không dùng từ “và”."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-34",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì khiến Bạn tin tưởng một người?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tạo dáng siêu anh hùng trong 10 giây."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-35",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn ngưỡng mộ phẩm chất nào ở một người trong nhóm?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy chào cả nhóm như thể Bạn vừa bước lên sân khấu trao giải."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-36",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Sau một ngày mệt, điều gì giúp Bạn có thêm năng lượng?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn tả cảnh Bạn vừa nhận được tin vui mà không nói thành lời."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-37",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Cuối tuần lý tưởng của Bạn sẽ diễn ra thế nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói một câu bất kỳ bằng giọng robot."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-38",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Chuyến đi ngẫu hứng nào Bạn nhớ nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy đóng vai phóng viên đưa tin trực tiếp từ căn phòng này."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-39",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có hoạt động nào Bạn chưa thử mà đang tò mò muốn thử không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy kể khoảnh khắc điện thoại vừa báo pin 100% như một chiến thắng lớn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-40",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích điều gì nhất ở tính cách của mình?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tạo dáng như nhân vật chính trên áp phích phim."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-41",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Theo Bạn, một người bạn tốt nên có phẩm chất nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy kể một kỷ niệm vui của Bạn với một người đang có mặt."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-42",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Tấm ảnh hoặc kỷ niệm cũ nào luôn khiến Bạn mỉm cười?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy chúc cả nhóm một điều vui vẻ bằng giọng MC sự kiện."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-43",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Mục tiêu nhỏ nào Bạn muốn hoàn thành trong vài tháng tới?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn tả cảnh Bạn vừa thắng một trò chơi."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-44",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Emoji nào giống tâm trạng của Bạn hôm nay nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói cùng một câu với ba kiểu giọng: vui vẻ, hồi hộp và bí ẩn."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-45",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Phiên bản nhỏ tuổi của Bạn sẽ bất ngờ nhất về điều gì ở hiện tại?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy giới thiệu bản thân như thể Bạn là nhân vật chính của một bộ phim."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-46",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Nếu được nghỉ bất ngờ một ngày, Bạn sẽ làm gì đầu tiên?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy giữ tư thế như một bức tượng trong khi cả nhóm đếm đến mười."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-47",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích ăn mừng tin vui theo cách nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tự hô một câu cổ vũ ngắn do Bạn nghĩ ra."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-48",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Một việc nhỏ bạn bè làm khiến Bạn cảm thấy được quan tâm là gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy gửi một lời chúc tốt đẹp đến người ngồi bên phải."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-49",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích được người khác hỏi câu gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hỏi một người xem họ có đồng ý nhận một nụ hôn má không. Chỉ thực hiện nếu cả hai thoải mái; nếu không, hãy hôn gió."
+        }
+      ]
+    },
+    {
+      "id": "noi-hay-nam-50",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn cảm ơn ai trong nhóm về điều gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tạo dáng thật vui và hô một câu kết thúc do Bạn nghĩ ra."
+        }
+      ]
+    }
+  ]
+}

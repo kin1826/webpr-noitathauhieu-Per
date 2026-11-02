@@ -1,0 +1,654 @@
+{
+  "cards": [
+    {
+      "id": "loi-hay-lam-01",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có điều gì Bạn thường giấu vì sợ người khác đánh giá?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hát một đoạn nhạc như đang tỏ tình trong phim truyền hình."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-02",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng thích ai mà chưa nói với người đó chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy mời một người trong nhóm nhảy cùng Bạn 10 giây; chỉ khi họ đồng ý."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-03",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì khiến Bạn dễ cảm thấy ghen tị nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy ôm một người Bạn quý trong nhóm sau khi hỏi họ có đồng ý không."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-04",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng giả vờ ổn trong khi thật ra đang buồn vì chuyện gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hát một câu bất kỳ thật tình cảm với chiếc ghế hoặc món đồ gần đó."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-05",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có lời xin lỗi nào Bạn vẫn muốn nói với ai đó không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hỏi một người trong nhóm xem họ có đồng ý nhận một nụ hôn má không; nếu họ không muốn, hãy hôn gió."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-06",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn sợ mất điều gì nhất trong một mối quan hệ?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn cảnh gặp lại người mình thích sau nhiều năm, bằng nét mặt và hành động."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-07",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng nói dối để tránh làm ai đó buồn chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nhảy một điệu tự nghĩ ra trong 15 giây như đang ở sân khấu lớn."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-08",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có ai từng khiến Bạn rung động ngoài dự đoán không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói một câu khen thật ngọt với một người trong nhóm, nếu họ thoải mái nghe."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-09",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì Bạn khó tha thứ nhất trong tình bạn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy đọc lời tỏ tình với giọng của một nhân vật phản diện trong phim."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-10",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng bỏ lỡ cơ hội nào mà đến giờ vẫn tiếc?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tạo dáng như vừa bị bắt gặp trong một bộ phim tình cảm."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-11",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có bí mật vô hại nào chưa kể với nhóm không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy xin một cái ôm từ người Bạn chọn; nếu họ từ chối, hãy tự ôm mình thật kịch tính."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-12",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thường che giấu cảm xúc nào nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hát một đoạn điệp khúc mà không dùng lời, chỉ ngân nga."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-13",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng thích một người vì lý do nào rất nhỏ nhặt chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn cảnh ghen tuông với một món đồ vô tri."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-14",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn người khác hiểu điều gì về mình hơn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói một lời tỏ tình với chiếc gối hoặc chiếc balô như thể đó là tình yêu của đời Bạn."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-15",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có điều gì Bạn muốn thử nhưng vẫn chưa đủ can đảm?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy mời một người trong nhóm cùng tạo dáng như một cặp đôi trên poster phim; chỉ khi họ đồng ý."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-16",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng nhớ ai đó nhưng cố tình không nhắn tin chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy đứng lên hát một đoạn bài hát do nhóm chọn; Bạn được chọn bài phù hợp với mình."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-17",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Trong tình cảm, điều gì khiến Bạn thấy bất an nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn một màn cầu hôn thật lố với chiếc dép hoặc chai nước."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-18",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có kỷ niệm nào Bạn muốn quay lại để làm khác đi không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nhìn một người trong nhóm và nói một câu cảm ơn thật chân thành."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-19",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng hiểu lầm ai rồi sau đó thấy mình sai chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy để nhóm chọn một cảm xúc, rồi diễn cảnh Bạn nhận tin nhắn theo cảm xúc đó."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-20",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích được quan tâm theo cách nào nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy xin phép một người trong nhóm để nắm tay họ trong 5 giây; nếu họ không muốn, hãy tạo dáng nắm tay trong không khí."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-21",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng có cảm tình với người mà bạn bè không ngờ tới chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn cảnh thất tình bằng một đoạn hát 10 giây."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-22",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì khiến Bạn cảm thấy mình không đủ tốt?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy catwalk thật tự tin như đang bước vào buổi hẹn quan trọng nhất đời mình."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-23",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng muốn làm hòa với ai nhưng chưa biết bắt đầu thế nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy gửi một nụ hôn gió thật kịch tính cho cả nhóm."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-24",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có hay giữ lại những món đồ gắn với kỷ niệm không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn một cảnh phim tình cảm câm trong 15 giây để cả nhóm đoán."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-25",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn được nghe câu nào từ người mình quý?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói câu “Mình có chuyện muốn nói…” theo ba cách: hồi hộp, vui mừng và bí ẩn."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-26",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng cố tỏ ra lạnh lùng với người mình thích chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy mời một người trong nhóm nhảy một điệu chậm vài giây; chỉ khi họ tự nguyện."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-27",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có điều gì đang muốn thay đổi trong bản thân?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn một cảnh ghen với chiếc điện thoại đang được chú ý hơn Bạn."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-28",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng cảm thấy bị bỏ rơi trong một nhóm bạn chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói một câu khen về nụ cười hoặc phong cách của người Bạn chọn, nếu họ thoải mái."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-29",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có từng quay lại đọc tin nhắn cũ vì nhớ ai đó không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy giả vờ đang gọi điện cho người thương và kể một câu chuyện thật sến."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-30",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn giữ lại phẩm chất nào của mình dù sau này có thay đổi?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tạo dáng chụp ảnh đôi với một người trong nhóm; chỉ chụp nếu cả hai đồng ý."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-31",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng có cảm xúc khó nói với một người bạn chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn cảnh Bạn bắt gặp người mình thích và cố tỏ ra bình tĩnh."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-32",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn cảm thấy dễ mở lòng với kiểu người như thế nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy đọc một câu bất kỳ bằng giọng thì thầm đầy bí ẩn."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-33",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng sợ nói thật vì sợ làm hỏng một mối quan hệ chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy xin một cái high-five thật long trọng từ người bên cạnh."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-34",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Khi buồn, Bạn muốn được ở một mình hay có người bên cạnh?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy kể một lời tỏ tình tưởng tượng dài 10 giây với phong cách phim cổ trang."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-35",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng che giấu sự thất vọng với ai chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn lại cảnh Bạn vừa nhận được lời khen khiến mình ngượng đến mức không biết đáp gì."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-36",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn nghĩ điều gì khiến một nụ hôn trở nên đáng nhớ?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hỏi một người Bạn chọn xem họ có đồng ý nhận một nụ hôn má; nếu không, hãy đổi sang hôn gió."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-37",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có ai Bạn muốn thân thiết hơn nhưng chưa có dịp nói chuyện nhiều không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy mời một người trong nhóm cùng tạo trái tim bằng tay; nếu họ không muốn, tự tạo một mình."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-38",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng cảm thấy mình là người chủ động nhiều hơn trong một mối quan hệ chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hát một câu tình ca như đang biểu diễn cho khán giả đông nghịt."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-39",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì làm Bạn mất niềm tin vào một người?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn cảnh phát hiện người mình thích đang nhìn mình, rồi quay đi thật ngượng ngùng."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-40",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng giữ một món quà hoặc tin nhắn vì nó có ý nghĩa đặc biệt chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hỏi một người trong nhóm xem họ có muốn nhận một cái ôm; nếu không, gửi họ một lời chúc dễ thương."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-41",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có dễ chủ động nói rằng mình nhớ ai đó không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy giả vờ đang quay MV buồn bằng một chiếc quạt hoặc món đồ gần đó."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-42",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có điều gì Bạn muốn nói với bản thân của một năm trước?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy diễn một đoạn cầu hôn hài hước với món đồ do nhóm chọn."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-43",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng có bí mật nào khiến Bạn thấy nhẹ nhõm sau khi kể ra không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy hỏi một người trong nhóm xem họ có đồng ý để Bạn hôn nhẹ lên má; nếu không, dừng lại và hôn gió."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-44",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn người yêu hoặc bạn thân làm gì khi Bạn đang giận?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói một câu “Mình thích Bạn” với giọng của nhân vật hoạt hình."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-45",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có hay lo mình bị người khác quên mất không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy mời một người tự nguyện cùng Bạn diễn cảnh tái ngộ sau 10 năm."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-46",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng giữ khoảng cách với ai dù thật ra muốn gần gũi hơn chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy thể hiện một cái ôm với chiếc gối như đang gặp lại người thân lâu ngày."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-47",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thấy khó nói “không” nhất trong tình huống nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy tự nghĩ một điệu nhảy đôi và biểu diễn một mình cả hai vai."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-48",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có lời khen nào Bạn muốn nói với ai đó nhưng chưa từng nói không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy nói lời khen đó ngay bây giờ, nếu người ấy đang có mặt và thoải mái nghe."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-49",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn có thêm kỷ niệm gì với nhóm bạn này?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy xin phép một người trong nhóm để tựa vai họ trong 5 giây; nếu họ không đồng ý, tạo dáng tựa vào không khí."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-lam-50",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Trong những người đang có mặt, ai khiến Bạn cảm thấy được là chính mình nhất? Vì sao?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy chọn một người tự nguyện và cùng tạo dáng kết thúc như cảnh cuối phim tình cảm."
+        }
+      ]
+    }
+  ]
+}

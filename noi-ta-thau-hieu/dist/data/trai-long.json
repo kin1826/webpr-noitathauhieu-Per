@@ -1,0 +1,454 @@
+{
+  "cards": [
+    {
+      "id": "trai-long-01",
+      "zones": [
+        {
+          "mainText": "Nếu có một ngày hoàn toàn rảnh rỗi, không phải học hay làm gì, bạn sẽ dành ngày đó như thế nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-02",
+      "zones": [
+        {
+          "mainText": "Có một điều rất nhỏ nào luôn khiến tâm trạng bạn tốt lên ngay lập tức không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-03",
+      "zones": [
+        {
+          "mainText": "Bạn thích một buổi hẹn đi chơi được lên kế hoạch trước hay hai người cứ ngẫu hứng đi đâu cũng được?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-04",
+      "zones": [
+        {
+          "mainText": "Nếu được sống ở bất kỳ thành phố nào trong một năm, bạn sẽ chọn nơi nào? Vì sao?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-05",
+      "zones": [
+        {
+          "mainText": "Có sở thích nào bạn rất thích nhưng ít khi kể cho người khác nghe không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-06",
+      "zones": [
+        {
+          "mainText": "Mọi người thường hiểu lầm điều gì về tính cách của bạn khi mới quen?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-07",
+      "zones": [
+        {
+          "mainText": "Bạn thích những cuộc trò chuyện dài vào đêm muộn hay những buổi đi chơi cùng nhau hơn?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-08",
+      "zones": [
+        {
+          "mainText": "Nếu phải chọn ba từ để miêu tả bản thân, bạn sẽ chọn những từ nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-09",
+      "zones": [
+        {
+          "mainText": "Điều gì khiến bạn có thiện cảm với một người ngay từ lần đầu gặp?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-10",
+      "zones": [
+        {
+          "mainText": "Nếu được cùng một người tạo ra một kỷ niệm thật đáng nhớ, bạn muốn đó là kỷ niệm như thế nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-11",
+      "zones": [
+        {
+          "mainText": "Khi buồn, bạn thường muốn ở một mình hay muốn có ai đó bên cạnh?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-12",
+      "zones": [
+        {
+          "mainText": "Bạn có dễ nói ra cảm xúc thật của mình không, hay thường giữ trong lòng?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-13",
+      "zones": [
+        {
+          "mainText": "Khi gặp chuyện không vui, điều gì từ người khác khiến bạn cảm thấy được an ủi nhất?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-14",
+      "zones": [
+        {
+          "mainText": "Có thói quen nào của bản thân mà bạn đang cố gắng thay đổi không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-15",
+      "zones": [
+        {
+          "mainText": "Điều gì khiến bạn cảm thấy tự hào nhất về bản thân ở thời điểm hiện tại?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-16",
+      "zones": [
+        {
+          "mainText": "Bạn thường đưa ra quyết định bằng lý trí hay cảm xúc? Có khi nào bạn thấy mình quá thiên về một bên không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-17",
+      "zones": [
+        {
+          "mainText": "Khi giận một người, bạn thích giải quyết ngay hay cần thời gian bình tĩnh trước?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-18",
+      "zones": [
+        {
+          "mainText": "Có một điều gì mà bạn muốn thử từ lâu nhưng đến giờ vẫn chưa đủ can đảm thực hiện không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-19",
+      "zones": [
+        {
+          "mainText": "Bạn nghĩ phiên bản hiện tại của mình đã khác phiên bản cách đây ba năm nhiều không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-20",
+      "zones": [
+        {
+          "mainText": "Nếu người khác muốn hiểu bạn hơn, bạn mong họ nhận ra điều gì mà bình thường bạn ít thể hiện?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-21",
+      "zones": [
+        {
+          "mainText": "Kỷ niệm tuổi thơ nào khiến bạn mỉm cười mỗi khi nhớ lại?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-22",
+      "zones": [
+        {
+          "mainText": "Có người nào từng xuất hiện trong cuộc sống và làm thay đổi cách bạn suy nghĩ không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-23",
+      "zones": [
+        {
+          "mainText": "Bạn có từng trải qua một chuyện mà lúc đó rất buồn, nhưng sau này lại thấy biết ơn vì nó xảy ra không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-24",
+      "zones": [
+        {
+          "mainText": "Nếu được gặp bản thân lúc 15 tuổi, bạn sẽ nói điều gì?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-25",
+      "zones": [
+        {
+          "mainText": "Trong cuộc sống, ai là người khiến bạn cảm thấy có thể thoải mái làm chính mình nhất?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-26",
+      "zones": [
+        {
+          "mainText": "Có một lời khen hay câu nói nào mà bạn đã nhớ rất lâu không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-27",
+      "zones": [
+        {
+          "mainText": "Có điều gì trước đây bạn từng rất sợ, nhưng bây giờ đã có thể đối mặt?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-28",
+      "zones": [
+        {
+          "mainText": "Bạn nghĩ điều quý giá nhất mà gia đình hoặc những người thân thiết đã dạy mình là gì?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-29",
+      "zones": [
+        {
+          "mainText": "Có một khoảnh khắc bình thường nào mà bạn ước mình có thể quay lại trải nghiệm thêm lần nữa không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-30",
+      "zones": [
+        {
+          "mainText": "Nếu cuộc sống hiện tại là một chương trong cuốn sách của bạn, bạn sẽ đặt tên chương này là gì?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-31",
+      "zones": [
+        {
+          "mainText": "Theo bạn, điều gì quan trọng nhất để hai người có thể duy trì một mối quan hệ lâu dài?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-32",
+      "zones": [
+        {
+          "mainText": "Bạn nghĩ sự quan tâm nên thể hiện bằng lời nói hay hành động? Vì sao?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-33",
+      "zones": [
+        {
+          "mainText": "Với bạn, sự chân thành của một người thường được thể hiện qua những điều gì?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-34",
+      "zones": [
+        {
+          "mainText": "Bạn thích một người thường xuyên chủ động nhắn tin hay một người ít nói nhưng luôn xuất hiện khi bạn cần?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-35",
+      "zones": [
+        {
+          "mainText": "Nếu một người vô tình khiến bạn buồn, bạn mong họ sẽ làm gì để cả hai hiểu nhau hơn?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-36",
+      "zones": [
+        {
+          "mainText": "Bạn nghĩ hai người có tính cách khác nhau nhiều vẫn có thể hòa hợp không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-37",
+      "zones": [
+        {
+          "mainText": "Có một ranh giới cá nhân nào bạn luôn mong người khác tôn trọng không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-38",
+      "zones": [
+        {
+          "mainText": "Trong một mối quan hệ, bạn nghĩ dành thời gian riêng cho bản thân quan trọng đến mức nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-39",
+      "zones": [
+        {
+          "mainText": "Điều gì khiến bạn dần mất niềm tin vào một người, dù trước đó rất quý họ?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-40",
+      "zones": [
+        {
+          "mainText": "Theo bạn, điều gì tạo nên sự khác biệt giữa một người bạn thân và một người mà mình có tình cảm đặc biệt?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-41",
+      "zones": [
+        {
+          "mainText": "Có khi nào bạn nhận ra mình bắt đầu có cảm tình với một người chỉ từ một khoảnh khắc rất nhỏ không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-42",
+      "zones": [
+        {
+          "mainText": "Bạn nghĩ cảm giác thích một người và cảm giác muốn nghiêm túc tìm hiểu người đó khác nhau như thế nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-43",
+      "zones": [
+        {
+          "mainText": "Nếu có một người thích bạn nhưng chưa nói ra, bạn muốn họ chủ động bày tỏ hay để mọi chuyện diễn ra tự nhiên?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-44",
+      "zones": [
+        {
+          "mainText": "Điều gì khiến bạn cảm thấy an toàn khi dần mở lòng với một người?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-45",
+      "zones": [
+        {
+          "mainText": "Bạn có sợ việc trở nên quá gắn bó với một người rồi một ngày phải xa họ không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-46",
+      "zones": [
+        {
+          "mainText": "Nếu có một người muốn bước vào cuộc sống của bạn, bạn mong họ hiểu điều gì về mình trước tiên?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-47",
+      "zones": [
+        {
+          "mainText": "Bạn nghĩ hai người nên bắt đầu một mối quan hệ khi đã hiểu rõ nhau, hay có thể vừa tìm hiểu vừa dần xây dựng tình cảm?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-48",
+      "zones": [
+        {
+          "mainText": "Có điều gì trong chuyện tình cảm mà trước đây bạn từng nghĩ khác, nhưng bây giờ đã thay đổi quan điểm không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-49",
+      "zones": [
+        {
+          "mainText": "Nếu một người hỏi bạn: “Hiện tại bạn có sẵn sàng để ai đó tìm hiểu mình nghiêm túc không?”, bạn sẽ trả lời như thế nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "trai-long-50",
+      "zones": [
+        {
+          "mainText": "Sau khoảng thời gian chúng ta quen biết nhau, có điều gì về mình khiến bạn thấy khác với ấn tượng ban đầu không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    }
+  ]
+}

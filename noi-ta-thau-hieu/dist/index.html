@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#171b22" />
+    <meta name="description" content="Nơi ta thấu hiểu — những bộ bài trò chuyện để gần nhau hơn, từng chút một." />
+    <link rel="icon" type="image/svg+xml" href="./assets/icon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="preload" href="./assets/CormorantGaramond-Medium.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="./assets/BeVietnamPro-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Nơi ta thấu hiểu</title>
+  </head>
+  <body>
+    <div id="app">
+      <section id="intro" class="screen active intro-screen" aria-label="Mở đầu">
+        <button id="intro-enter" class="intro-enter" type="button" aria-label="Chạm để tiếp tục vào thư viện">
+          <span class="intro-glow" aria-hidden="true"></span>
+          <span class="intro-orbit intro-orbit-one" aria-hidden="true"></span>
+          <span class="intro-orbit intro-orbit-two" aria-hidden="true"></span>
+          <span class="intro-content">
+            <span class="intro-mark">✦ &nbsp; NHỮNG CUỘC TRÒ CHUYỆN CÓ Ý NGHĨA &nbsp; ✦</span>
+            <span class="intro-title">Nơi ta<br /><em>thấu hiểu</em></span>
+            <span class="intro-line" aria-hidden="true"></span>
+            <span class="intro-subtitle">Một câu hỏi. Một khoảng lặng. Một chút gần nhau hơn.</span>
+            <span class="intro-prompt">CHẠM ĐỂ TIẾP TỤC <span aria-hidden="true">↗</span></span>
+          </span>
+          <span class="intro-transform-card" aria-hidden="true"><span>TRẢI LÒNG</span></span>
+        </button>
+      </section>
+
+      <section id="library" class="screen library-screen" aria-label="Thư viện bộ bài" hidden>
+        <div class="library-noise" aria-hidden="true"></div>
+        <div class="site-wrap">
+          <header class="site-header">
+            <div class="wordmark"><span class="wordmark-symbol">✦</span><span>Nơi ta <em>thấu hiểu</em></span></div>
+            <span class="header-note">BỘ BÀI TRÒ CHUYỆN</span>
+          </header>
+
+          <main>
+            <section class="library-hero" aria-labelledby="library-title">
+              <div class="hero-copy">
+                <div class="eyebrow"><span class="eyebrow-line"></span> MỘT KHÔNG GIAN ĐỂ KẾT NỐI</div>
+                <h1 id="library-title">Có những điều,<br />chỉ cần <em>bắt đầu nói.</em></h1>
+                <p>Chọn một bộ bài. Rút một câu hỏi. Cùng nhau đi qua những câu chuyện nhỏ, để hiểu nhau thêm một chút.</p>
+                <a href="#deck-list" class="hero-link">Khám phá bộ bài <span aria-hidden="true">↗</span></a>
+              </div>
+              <div class="hero-art" aria-hidden="true">
+                <div class="hero-halo"></div>
+                <div class="hero-card hero-card-back"></div>
+                <div class="hero-card hero-card-front"><span>TRẢI LÒNG</span><b>Những câu chuyện<br />chưa từng kể.</b><i>✦</i></div>
+                <div class="hero-art-caption">CHẬM LẠI · LẮNG NGHE · THẤU HIỂU</div>
+              </div>
+            </section>
+
+            <section id="deck-list" class="deck-section" aria-labelledby="deck-heading">
+              <div class="section-heading"><div><span class="section-kicker">01 / THƯ VIỆN</span><h2 id="deck-heading">Bộ bài của bạn</h2></div><p>Chọn một câu chuyện để bắt đầu.</p></div>
+              <div class="library-controls">
+                <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg><input id="deck-search" type="search" placeholder="Tìm bộ bài, chủ đề..." autocomplete="off" aria-label="Tìm kiếm bộ bài" /></label>
+                <div id="category-filters" class="filter-list" role="group" aria-label="Lọc theo danh mục"></div>
+              </div>
+              <div id="deck-grid" class="deck-grid"></div>
+              <div id="empty-state" class="empty-state" hidden><span>✦</span><h3>Chưa tìm thấy bộ bài phù hợp</h3><p>Thử một từ khóa hoặc danh mục khác nhé.</p></div>
+            </section>
+          </main>
+
+          <footer class="site-footer"><span>✦ &nbsp; Nơi ta thấu hiểu</span><span>Mọi cuộc trò chuyện đều bắt đầu từ một câu hỏi.</span><span>Được tạo để ở bên nhau.</span></footer>
+        </div>
+      </section>
+
+      <section id="guide" class="screen immersive-screen guide-screen" aria-label="Hướng dẫn chơi" hidden>
+        <div class="immersive-bg" aria-hidden="true"></div>
+        <div class="immersive-shade" aria-hidden="true"></div>
+        <header class="immersive-header"><button id="guide-back" class="icon-button" type="button" aria-label="Quay lại thư viện"><span aria-hidden="true">←</span></button><span class="immersive-brand">NƠI TA THẤU HIỂU</span><span class="header-spacer"></span></header>
+        <button id="guide-start" class="guide-stage" type="button" aria-label="Nhấn vào để bắt đầu chơi">
+          <span class="guide-topline">BỘ BÀI TRÒ CHUYỆN / 01</span>
+          <span class="guide-center"><span class="guide-star">✦</span><span class="guide-title">Trải Lòng</span><span class="guide-divider"></span><span class="guide-instruction">Nhấn vào để bắt đầu</span><span class="guide-description">Nhấn vào màn hình, lá bài với nội dung bất kì sẽ xuất hiện, việc của bạn là hãy tận hưởng câu hỏi đấy.</span></span>
+          <span class="guide-bottomline">CHẠM ĐỂ BẮT ĐẦU <span aria-hidden="true">→</span></span>
+        </button>
+      </section>
+
+      <section id="play" class="screen immersive-screen play-screen" aria-label="Chơi bộ bài Trải Lòng" hidden>
+        <div class="immersive-bg" aria-hidden="true"></div><div class="immersive-shade" aria-hidden="true"></div>
+        <header class="immersive-header play-header"><button id="play-back" class="icon-button" type="button" aria-label="Quay lại thư viện"><span aria-hidden="true">←</span></button><div class="play-heading"><span>BỘ BÀI TRÒ CHUYỆN</span><strong id="play-deck-title">Trải Lòng</strong></div><button id="options-open" class="icon-button options-trigger" type="button" aria-label="Mở tùy chọn"><span aria-hidden="true">⚙</span></button></header>
+        <main class="play-main"><div class="play-side-label" aria-hidden="true">CHẬM LẠI · LẮNG NGHE · THẤU HIỂU</div><div class="play-center"><div id="progress-wrap" class="progress-wrap"><span id="progress-label">0 / 50 LÁ ĐÃ RÚT</span><div class="progress-track"><div id="progress-bar" class="progress-bar"></div></div></div><div class="card-area"><div class="stack-card stack-card-3" aria-hidden="true"></div><div class="stack-card stack-card-2" aria-hidden="true"></div><button id="draw-card" class="draw-card card-back" type="button" aria-label="Rút một lá bài"><span id="card-inner" class="card-inner"><span class="card-back-content"><span class="card-corner">✦</span><span class="card-back-title">Trải<br /><em>Lòng</em></span><span class="card-back-rule"></span><span class="card-back-caption">MỘT CÂU HỎI CHO HAI NGƯỜI</span><span class="card-corner card-corner-bottom">✦</span></span></span></button></div><div id="play-hint" class="play-hint">CHẠM VÀO LÁ BÀI ĐỂ RÚT <span aria-hidden="true">↑</span></div><div id="end-actions" class="end-actions" hidden><p>Đã đi qua tất cả 50 câu hỏi. Một cuộc trò chuyện đẹp vẫn có thể bắt đầu lại.</p><button id="replay-button" type="button">Chơi lại từ đầu <span aria-hidden="true">↗</span></button></div></div><div class="play-side-count" aria-hidden="true">01 — 50</div></main>
+        <div id="live-announcement" class="sr-only" aria-live="polite"></div>
+      </section>
+
+      <div id="options-overlay" class="options-overlay" hidden><div class="options-scrim" data-close-options></div><aside class="options-panel" role="dialog" aria-modal="true" aria-labelledby="options-title"><div class="options-header"><div><span class="section-kicker">CÁ NHÂN HÓA</span><h2 id="options-title">Tùy chọn</h2></div><button id="options-close" class="icon-button dark-icon" type="button" aria-label="Đóng tùy chọn">×</button></div><div class="options-content"><fieldset><legend>Chế độ rút bài</legend><label class="radio-option"><input type="radio" name="draw-mode" value="stop" /><span><strong>Không lặp, dừng khi hết bài</strong><small>Mỗi câu hỏi chỉ xuất hiện một lần.</small></span></label><label class="radio-option"><input type="radio" name="draw-mode" value="reshuffle" /><span><strong>Tự xáo lại khi hết</strong><small>Bắt đầu lượt mới khi đã rút hết 50 lá.</small></span></label><label class="radio-option"><input type="radio" name="draw-mode" value="repeat" /><span><strong>Cho phép lặp</strong><small>Một câu hỏi có thể trở lại bất kỳ lúc nào.</small></span></label></fieldset><div class="option-group"><span class="option-group-title">TRẢI NGHIỆM</span><label class="toggle-option"><span><strong>Âm thanh hiệu ứng</strong><small>Âm thanh xào và lướt thẻ</small></span><input id="sounds-toggle" type="checkbox" role="switch" /></label><label class="toggle-option"><span><strong>Rung nhẹ khi rút</strong><small>Rung theo nhịp xào bài</small></span><input id="haptics-toggle" type="checkbox" role="switch" /></label><label class="toggle-option"><span><strong>Hiện tiến trình</strong><small>Theo dõi số lá đã rút</small></span><input id="progress-toggle" type="checkbox" role="switch" /></label></div><fieldset><legend>Tốc độ hiệu ứng</legend><div class="speed-options"><label><input type="radio" name="draw-speed" value="normal" /><span>Bình thường</span></label><label><input type="radio" name="draw-speed" value="fast" /><span>Nhanh</span></label></div></fieldset><fieldset class="readability-group"><legend>Dễ đọc</legend><div class="font-scale-control"><button id="scale-down" class="scale-button" type="button" aria-label="Giảm cỡ chữ">−</button><output id="card-scale-label" for="scale-down scale-up">100%</output><button id="scale-up" class="scale-button" type="button" aria-label="Tăng cỡ chữ">+</button></div><small class="scale-range-note">Từ 90% đến 130%</small><div class="font-preview-wrap"><span>Mẫu chữ tiếng Việt</span><span id="font-preview">Mẫu chữ tiếng Việt</span></div></fieldset><button id="reset-button" class="reset-button" type="button">↺ &nbsp; Xáo lại từ đầu</button><p class="save-note">Tùy chọn và tiến trình được lưu trên thiết bị này.</p></div></aside></div>
+
+      <div id="confirm-overlay" class="confirm-overlay" hidden><div class="confirm-card" role="alertdialog" aria-modal="true" aria-labelledby="confirm-title" aria-describedby="confirm-text"><span>✦</span><h2 id="confirm-title">Xáo lại từ đầu?</h2><p id="confirm-text">Tiến trình của bộ Trải Lòng sẽ được xóa để bắt đầu một lượt mới.</p><div><button id="confirm-cancel" type="button">Giữ tiến trình</button><button id="confirm-reset" type="button">Xáo lại</button></div></div></div>
+      <div id="error-toast" class="error-toast" role="alert" hidden></div>
+    </div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,394 @@
+{
+  "cards": [
+    {
+      "id": "loi-hay-nam-01",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có điều gì Bạn thường giấu vì sợ người khác đánh giá?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Ôm người Bạn quý nhất trong nhóm trong 20 giây."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-02",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng thích ai mà chưa nói với người đó chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói một lời khen thật lòng với người Bạn thấy cuốn hút nhất nhóm."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-03",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì khiến Bạn dễ cảm thấy ghen tị nhất trong tình cảm?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Chọn hai người trong nhóm mà Bạn muốn “đẩy thuyền”, rồi nói lý do."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-04",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng giả vờ ổn trong khi thật ra đang buồn vì chuyện gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nắm tay một người trong nhóm trong 10 giây."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-05",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có lời xin lỗi nào Bạn vẫn muốn nói với ai đó không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hôn má một người trong nhóm."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-06",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn sợ mất điều gì nhất trong một mối quan hệ?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Chọn một người trong nhóm và nói Bạn sẽ rủ họ đi đâu nếu hai người có một buổi hẹn riêng."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-07",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng nói dối để tránh làm ai đó buồn chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói với một người trong nhóm điều đầu tiên khiến Bạn chú ý đến họ."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-08",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có ai từng khiến Bạn rung động ngoài dự đoán không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nhìn vào mắt một người trong nhóm trong 15 giây, rồi nói một điều Bạn quý ở họ."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-09",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì Bạn khó tha thứ nhất trong tình bạn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói một câu mà Bạn sẽ muốn nghe từ người mình thích."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-10",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng bỏ lỡ cơ hội nào mà đến giờ vẫn tiếc?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói tên một người trong nhóm mà Bạn muốn tìm hiểu nhiều hơn, rồi giải thích vì sao."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-11",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có bí mật vô hại nào chưa kể với nhóm không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Chọn một người trong nhóm và xin họ một cái ôm thật chặt."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-12",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thường che giấu cảm xúc nào nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói với một người trong nhóm: “Có lúc mình đã muốn nói điều này với Bạn…” rồi hoàn thành câu bằng điều thật lòng."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-13",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng thích một người vì lý do nào rất nhỏ nhặt chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Chọn một người trong nhóm và nói điều khiến họ có sức hút riêng."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-14",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn người khác hiểu điều gì về mình hơn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói tên người trong nhóm mà Bạn muốn ngồi cạnh trong một buổi hẹn, và vì sao."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-15",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có điều gì Bạn muốn thử nhưng vẫn chưa đủ can đảm?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói thẳng với một người trong nhóm rằng Bạn thấy họ đáng yêu ở điểm nào."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-16",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng nhớ ai đó nhưng cố tình không nhắn tin chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nắm tay người Bạn cảm thấy gần gũi nhất trong nhóm trong 10 giây."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-17",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Trong tình cảm, điều gì khiến Bạn thấy bất an nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hôn má một người trong nhóm mà Bạn thấy thoải mái khi chọn."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-18",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có kỷ niệm nào Bạn muốn quay lại để làm khác đi không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói với một người trong nhóm một điều Bạn chưa từng đủ can đảm nói với họ."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-19",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn từng hiểu lầm ai rồi sau đó thấy mình sai chưa?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hãy thú nhận người trong nhóm mà Bạn nghĩ sẽ hợp làm người yêu của mình nhất."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-20",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích được quan tâm theo cách nào nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Chọn một người trong nhóm và nói một câu tỏ tình thật lòng — hoặc dùng câu Bạn sẽ nói nếu thật sự thích họ."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-21",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Lần say nào khiến Bạn ngượng nhất khi nhớ lại?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Kể một lần Bạn say mà hôm sau nghĩ lại thấy quê nhất."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-22",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Ấn tượng đầu tiên của Bạn về một người trong nhóm đã thay đổi thế nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Chọn một người trong nhóm và kể ấn tượng đầu tiên của Bạn về họ."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-23",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Trong nhóm, ai từng giúp Bạn nhiều hơn họ nghĩ?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nâng ly chúc mừng một người trong nhóm bằng một lời chúc thật lòng."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-24",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Câu nào Bạn rất muốn được nghe từ một người mình quý?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Dùng câu “Mình có chuyện muốn nói…” để tạo ra một lời tỏ tình sến nhất có thể."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-25",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bài hát nào gắn với một kỷ niệm khó quên của Bạn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói tên bài hát ấy và kể ngắn gọn kỷ niệm gắn với nó."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-26",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Thói quen nhỏ nào của Bạn mà ít người trong nhóm biết?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói một bí mật nhỏ về bản thân mà nhóm chưa biết."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-27",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Ai trong nhóm có gu người yêu khiến Bạn tò mò nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Đoán gu người yêu của một người trong nhóm."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-28",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có tin nhắn nào Bạn từng gõ rồi xóa mà không gửi không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Kể về một tin nhắn Bạn từng gõ rồi xóa, không cần nói người nhận là ai."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-29",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Khi nào Bạn thấy mình lúng túng nhất trước mặt người khác?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Để cả nhóm hỏi Bạn một câu; trả lời thật hoặc uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "loi-hay-nam-30",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn có thêm kỷ niệm gì với nhóm bạn này?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Chỉ định người tiếp theo rút bài và nói một lý do khiến Bạn chọn họ."
+        }
+      ]
+    }
+  ]
+}

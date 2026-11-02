@@ -1,0 +1,133 @@
+{
+  "decks": [
+    {
+      "id": "trai-long",
+      "title": "Trải Lòng",
+      "subtitle": "50 câu hỏi để gần nhau hơn, từng chút một.",
+      "category": "Trải lòng",
+      "tags": [
+        "tâm sự",
+        "kết nối",
+        "câu hỏi",
+        "tình cảm"
+      ],
+      "cardCount": 50,
+      "cardFile": "trai-long.json",
+      "backgroundColor": "#171B22",
+      "gradientEndColor": "#36313F",
+      "textColor": "#FFF8EF",
+      "accentColor": "#D9BFA9",
+      "contentZoneCount": 1,
+      "introAnimationStyle": "cardReveal",
+      "zoneStyle": {
+        "backgroundColor": "#292832",
+        "textColor": "#FFF8EF",
+        "cornerRadius": 28,
+        "spacing": 18
+      },
+      "mainFontName": "CormorantGaramond-Medium",
+      "uiFontName": "BeVietnamPro-Regular",
+      "backgroundImagePath": "Images/trai-long-background.png",
+      "backgroundOverlayOpacity": 0.42
+    },
+    {
+      "id": "noi-hay-nam",
+      "title": "Nói Hay Nàm",
+      "subtitle": "Bộ nhẹ nhàng nhất thư viện, dành để chơi cùng nhóm bạn.",
+      "category": "Thật hay thách",
+      "tags": [
+        "nói hay nàm",
+        "nhóm bạn",
+        "thật",
+        "thách",
+        "vui vẻ",
+        "nhẹ nhàng"
+      ],
+      "introMessage": "Người bốc lá tự trả lời câu Thật hoặc thực hiện thử thách trên lá; không giao cho người khác làm thay. Chạm vào lá bài để rút lá mới. Có thể bỏ qua thử thách nếu không thoải mái. Thử thách có tiếp xúc chỉ thực hiện khi cả hai cùng đồng ý; nếu không, dùng phương án thay thế ghi trên lá.",
+      "cardCount": 50,
+      "cardFile": "noi-hay-nam.json",
+      "backgroundColor": "#1D1D25",
+      "gradientEndColor": "#39313B",
+      "textColor": "#FFF8EF",
+      "accentColor": "#E3BFA7",
+      "contentZoneCount": 2,
+      "introAnimationStyle": "cardReveal",
+      "zoneStyle": {
+        "backgroundColor": "#292832",
+        "textColor": "#FFF8EF",
+        "cornerRadius": 28,
+        "spacing": 0
+      },
+      "mainFontName": "Georgia",
+      "uiFontName": "BeVietnamPro-Regular",
+      "backgroundImagePath": "Images/noi-hay-nam-back.png",
+      "backgroundOverlayOpacity": 0.42
+    },
+    {
+      "id": "loi-hay-lam",
+      "title": "Lói Hay Làm",
+      "subtitle": "Thật lòng hơn, thử thách đậm hơn.",
+      "category": "Thật hay thách",
+      "tags": [
+        "lói hay làm",
+        "thật",
+        "thách",
+        "tình cảm",
+        "câu hỏi",
+        "thử thách"
+      ],
+      "introMessage": "Người bốc lá tự trả lời câu Thật hoặc thực hiện thử thách trên lá; không giao cho người khác làm thay. Chạm vào lá bài để xào và rút lá mới. Mỗi lần rút chỉ tính một lá. Chỉ thực hiện thử thách có tiếp xúc khi người liên quan đồng ý; nếu không thoải mái, hãy dùng phương án thay thế ghi trên lá.",
+      "cardCount": 50,
+      "cardFile": "loi-hay-lam.json",
+      "backgroundColor": "#28121D",
+      "gradientEndColor": "#28121D",
+      "textColor": "#FFFFFF",
+      "accentColor": "#F47D8D",
+      "contentZoneCount": 2,
+      "introAnimationStyle": "cardReveal",
+      "zoneStyle": {
+        "backgroundColor": "#3A1B2A",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 28,
+        "spacing": 0
+      },
+      "mainFontName": "CormorantGaramond-Medium",
+      "uiFontName": "BeVietnamPro-Regular",
+      "backgroundImagePath": "Images/loi-hay-lam-back.png",
+      "backgroundOverlayOpacity": 0.46
+    },
+    {
+      "id": "loi-hay-nam",
+      "title": "Lói Hay Nàm",
+      "subtitle": "Thật lòng hơn, thử thách đậm hơn.",
+      "category": "Thật hay thách",
+      "tags": [
+        "lói hay nàm",
+        "thật",
+        "thách",
+        "tình cảm",
+        "câu hỏi",
+        "thử thách"
+      ],
+      "introMessage": "Người bốc lá tự trả lời câu Thật hoặc thực hiện thử thách trên lá; không giao cho người khác làm thay. Chạm vào lá để xào và rút lá mới. Thử thách có tiếp xúc chỉ thực hiện khi người liên quan đồng ý; nếu không thoải mái, bạn có thể bỏ qua thử thách.",
+      "cardCount": 30,
+      "cardFile": "loi-hay-nam.json",
+      "backgroundColor": "#28121D",
+      "gradientEndColor": "#28121D",
+      "textColor": "#FFFFFF",
+      "accentColor": "#F47D8D",
+      "contentZoneCount": 2,
+      "introAnimationStyle": "cardReveal",
+      "zoneStyle": {
+        "backgroundColor": "#3A1B2A",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 28,
+        "spacing": 0
+      },
+      "mainFontName": "CormorantGaramond-Medium",
+      "uiFontName": "BeVietnamPro-Regular",
+      "backgroundImagePath": "Images/loi-hay-nam-back.png",
+      "backgroundOverlayOpacity": 0.46
+    }
+  ]
+}
