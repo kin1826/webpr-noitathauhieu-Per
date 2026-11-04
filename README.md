@@ -17,6 +17,7 @@ Mở `http://localhost:8787`. Cần chạy qua HTTP để tải JSON và đăng 
 ## Chức năng
 
 - Thư viện có tìm kiếm và bộ lọc danh mục được lấy từ registry bộ bài.
+- Mục “Cài web” trong thư viện hướng dẫn thêm vào Màn hình chính trên iPhone Safari và Android. Mục này tự ẩn khi chạy ở chế độ ứng dụng độc lập.
 - Cả tám bộ dùng cùng luồng thư viện → hướng dẫn → màn chơi → hết bài/chơi lại.
 - Tùy chọn gồm chế độ dừng, xáo lại hoặc cho phép lặp; tốc độ hiệu ứng; âm thanh; rung; hiển thị tiến trình; và cỡ chữ mặc định 80%, có thể chỉnh từ 80–120%.
 - Khi rút, các lá lướt nhanh rồi giảm tốc tới lá được chọn. Tiến trình chỉ được ghi sau khi hoạt ảnh kết thúc. Chế độ giảm chuyển động của thiết bị làm hiệu ứng nhẹ hơn.
@@ -27,7 +28,7 @@ Mở `http://localhost:8787`. Cần chạy qua HTTP để tải JSON và đăng 
 1. Thêm cấu hình bộ bài trong `noi-ta-thau-hieu/dist/data/deck-index.json`, gồm ID ổn định, danh mục, số lá, tên tệp JSON, chủ đề giao diện, font và đường dẫn ảnh.
 2. Thêm tệp nội dung trong `noi-ta-thau-hieu/dist/data/`. Mỗi lá cần ID duy nhất và đúng số zone theo `contentZoneCount`; zone có `mainText` và có thể có `label` hoặc `note`. Thứ tự phần tử trong `zones` là thứ tự hiển thị.
 3. Đặt ảnh nền/bìa trong `noi-ta-thau-hieu/dist/assets/`. Đường dẫn `backgroundImagePath` trong registry được ánh xạ theo tên tệp cuối.
-4. Ảnh nền web được xuất từ PNG của app thành WebP cho trình duyệt hỗ trợ, kèm JPEG dự phòng; logo app được xuất thành các kích thước icon web trong `noi-ta-thau-hieu/dist/assets/`. Nếu thêm tài nguyên bắt buộc phải có ngay khi mở offline lần đầu, thêm nó vào `CORE_ASSETS` và tăng phiên bản `CACHE` trong `noi-ta-thau-hieu/dist/sw.js`.
+4. Ảnh nền web được xuất từ PNG của app thành WebP cho trình duyệt hỗ trợ, kèm JPEG dự phòng; logo app được xuất thành các kích thước icon web trong `noi-ta-thau-hieu/dist/assets/`. Nếu thay CSS hoặc JS, tăng phiên bản query trong `index.html` và `CORE_ASSETS`; khi đổi app shell hoặc tài nguyên cache, tăng phiên bản `CACHE` trong `noi-ta-thau-hieu/dist/sw.js` để trình duyệt bỏ cache cũ.
 5. Giữ nguyên ID bộ và ID lá đang tồn tại khi chỉ sửa câu chữ hoặc giao diện để không làm mất tiến trình đã lưu trên thiết bị.
 
 ## Bộ Sau cánh cửa

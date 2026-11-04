@@ -36,3 +36,6 @@ coverage/
 **/coverage/
 
 # Keep noi-ta-thau-hieu/dist tracked: it is the deployable website.
+
+# Local UI design references; do not include them in the website or Git.
+/ui-design-references/

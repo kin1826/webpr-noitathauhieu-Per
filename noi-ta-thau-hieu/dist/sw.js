@@ -1,6 +1,6 @@
-const CACHE = 'noi-ta-thau-hieu-v6';
+const CACHE = 'noi-ta-thau-hieu-v8';
 const CORE_ASSETS = [
-  './', './index.html', './styles.css', './app.js', './manifest.webmanifest',
+  './', './index.html', './styles.css?v=8', './app.js?v=8', './manifest.webmanifest',
   './assets/favicon-32.png', './assets/apple-touch-icon.png', './assets/icon-192.png', './assets/icon-512.png',
   './assets/logo-192.png', './assets/trai-long-background.jpg',
   './assets/CormorantGaramond-Medium.ttf', './assets/BeVietnamPro-Regular.ttf',
@@ -24,7 +24,7 @@ self.addEventListener('fetch', event => {
   if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return;
   event.respondWith((async () => {
     const cache = await caches.open(CACHE);
-    const cached = await cache.match(request, { ignoreSearch: true });
+    const cached = await cache.match(request);
     if (cached) return cached;
     try {
       const response = await fetch(request);
