@@ -13,10 +13,11 @@
     <link rel="preload" href="./assets/trai-long-background.jpg" as="image" fetchpriority="high" />
     <link rel="preload" href="./assets/CormorantGaramond-Medium.ttf" as="font" type="font/ttf" crossorigin />
     <link rel="preload" href="./assets/BeVietnamPro-Regular.ttf" as="font" type="font/ttf" crossorigin />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=8" />
     <title>Nơi ta thấu hiểu</title>
   </head>
   <body>
+    <a id="skip-to-library" class="skip-link" href="#deck-list">Bỏ qua mở đầu, đến thư viện</a>
     <div id="app">
       <section id="intro" class="screen active intro-screen" aria-label="Mở đầu">
         <button id="intro-enter" class="intro-enter" type="button" aria-label="Chạm để tiếp tục vào thư viện">
@@ -40,13 +41,21 @@
           <header class="site-header">
             <div class="wordmark"><img class="wordmark-logo" src="./assets/logo-192.png" width="40" height="40" alt="" decoding="async" /><span>Nơi ta <em>thấu hiểu</em></span></div>
             <span class="header-note">BỘ BÀI TRÒ CHUYỆN</span>
+            <details id="install-guide" class="install-guide">
+              <summary>Cài web <span aria-hidden="true">↓</span></summary>
+              <div class="install-guide-panel">
+                <strong>Thêm vào Màn hình chính</strong>
+                <p><b>iPhone · Safari:</b> Nhấn Chia sẻ (hoặc Menu trang → Chia sẻ), chọn “Thêm vào Màn hình chính”, bật tùy chọn mở như ứng dụng nếu có, rồi nhấn “Thêm”.</p>
+                <p><b>Android:</b> Mở menu trình duyệt, chọn “Cài ứng dụng” hoặc “Thêm vào Màn hình chính”.</p>
+              </div>
+            </details>
           </header>
 
           <main>
             <section class="library-hero" aria-labelledby="library-title">
               <div class="hero-copy">
                 <div class="eyebrow"><span class="eyebrow-line"></span> MỘT KHÔNG GIAN ĐỂ KẾT NỐI</div>
-                <h1 id="library-title">Có những điều,<br />chỉ cần <em>bắt đầu nói.</em></h1>
+                <h1 id="library-title" tabindex="-1">Có những điều,<br />chỉ cần <em>bắt đầu nói.</em></h1>
                 <p>Chọn một bộ bài. Rút một câu hỏi. Cùng nhau đi qua những câu chuyện nhỏ, để hiểu nhau thêm một chút.</p>
                 <a href="#deck-list" class="hero-link">Khám phá bộ bài <span aria-hidden="true">↗</span></a>
               </div>
@@ -59,13 +68,14 @@
             </section>
 
             <section id="deck-list" class="deck-section" aria-labelledby="deck-heading">
-              <div class="section-heading"><div><span class="section-kicker">01 / THƯ VIỆN</span><h2 id="deck-heading">Bộ bài của bạn</h2></div><p>Chọn một câu chuyện để bắt đầu.</p></div>
+              <div class="section-heading"><div><span class="section-kicker">01 / THƯ VIỆN</span><h2 id="deck-heading" tabindex="-1">Bộ bài của bạn</h2></div><p>Chọn một câu chuyện để bắt đầu.</p></div>
               <div class="library-controls">
-                <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg><input id="deck-search" type="search" placeholder="Tìm bộ bài, chủ đề..." autocomplete="off" aria-label="Tìm kiếm bộ bài" /></label>
+                <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg><input id="deck-search" type="search" placeholder="Tìm bộ bài, chủ đề…" autocomplete="off" enterkeyhint="search" aria-label="Tìm kiếm bộ bài" /></label>
                 <div id="category-filters" class="filter-list" role="group" aria-label="Lọc theo danh mục"></div>
               </div>
+              <div id="library-status" class="library-status" role="status">Đang tải bộ bài…</div>
               <div id="deck-grid" class="deck-grid"></div>
-              <div id="empty-state" class="empty-state" hidden><span>✦</span><h3>Chưa tìm thấy bộ bài phù hợp</h3><p>Thử một từ khóa hoặc danh mục khác nhé.</p></div>
+              <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">✦</span><h3 id="empty-title">Chưa tìm thấy bộ bài phù hợp</h3><p id="empty-copy">Thử một từ khóa hoặc danh mục khác nhé.</p><button id="empty-recover" type="button">Hiện tất cả bộ bài</button></div>
             </section>
           </main>
 
@@ -96,6 +106,6 @@
       <div id="confirm-overlay" class="confirm-overlay" hidden><div class="confirm-card" role="alertdialog" aria-modal="true" aria-labelledby="confirm-title" aria-describedby="confirm-text"><span>✦</span><h2 id="confirm-title">Xáo lại từ đầu?</h2><p id="confirm-text">Tiến trình của bộ Trải Lòng sẽ được xóa để bắt đầu một lượt mới.</p><div><button id="confirm-cancel" type="button">Giữ tiến trình</button><button id="confirm-reset" type="button">Xáo lại</button></div></div></div>
       <div id="error-toast" class="error-toast" role="alert" hidden></div>
     </div>
-    <script src="./app.js" defer></script>
+    <script src="./app.js?v=8" defer></script>
   </body>
 </html>

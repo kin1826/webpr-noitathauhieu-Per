@@ -17,6 +17,7 @@ let settings = loadJSON(SETTINGS_KEY, defaultSettings);
 let progress = null;
 let drawBusy = false;
 let navigationBusy = false;
+let lastDeckButton = null;
 let optionsReturnFocus = null;
 let activeSound = null;
 const soundPlayers = new Map();
@@ -72,9 +73,12 @@ function assetFor(deck, cover = false) {
 function loadTileImage(element) {
   const source = element.dataset.imageSource;
   if (!source) return;
-  element.style.backgroundImage = `url("${source}")`;
   delete element.dataset.imageSource;
   tileImageObserver?.unobserve(element);
+  const image = new Image();
+  image.onload = () => { element.style.backgroundImage = `url("${source}")`; };
+  image.onerror = () => { element.closest('.deck-tile')?.classList.remove('deck-tile-art'); };
+  image.src = source;
 }
 function rgbaFromHex(hex, alpha = 1) {
   const match = /^#([\da-f]{2})([\da-f]{2})([\da-f]{2})$/i.exec(hex ?? '');
@@ -82,19 +86,23 @@ function rgbaFromHex(hex, alpha = 1) {
 }
 function applyDeckTheme(deck) {
   const play = $('#play');
+  const guide = $('#guide');
   const background = deck.backgroundColor ?? '#171B22';
   const gradient = deck.gradientEndColor ?? '#36313F';
   const accent = deck.accentColor ?? '#D9BFA9';
   play.style.setProperty('--deck-background', background);
+  guide.style.setProperty('--deck-background', background);
   play.style.setProperty('--deck-gradient-end', gradient);
   play.style.setProperty('--deck-text', deck.textColor ?? '#FFF8EF');
   play.style.setProperty('--deck-accent', accent);
   const zoneBackground = deck.zoneStyle?.backgroundColor ?? background;
-  play.style.setProperty('--deck-card-surface', `linear-gradient(145deg,rgba(255,255,255,.04),transparent 42%,rgba(0,0,0,.05)),linear-gradient(rgba(0,0,0,.38),rgba(0,0,0,.38)),linear-gradient(${rgbaFromHex(zoneBackground, .22)},${rgbaFromHex(zoneBackground, .22)})`);
+  play.style.setProperty('--deck-card-surface', `linear-gradient(145deg,rgba(255,255,255,.06),transparent 42%),linear-gradient(145deg,${rgbaFromHex(zoneBackground, .96)},${rgbaFromHex(background, .94)})`);
   play.style.setProperty('--deck-card-stroke', rgbaFromHex(accent, .45));
   play.style.setProperty('--deck-card-text-scale', String(settings.cardTextScale));
   const font = deck.mainFontName === 'Georgia' ? 'Georgia, serif' : 'Cormorant, Georgia, serif';
   play.style.setProperty('--deck-main-font', font);
+  guide.style.setProperty('--deck-main-font', font);
+  guide.style.setProperty('--deck-accent', accent);
   const image = assetFor(deck);
   play.style.setProperty('--deck-stack-surface', `linear-gradient(145deg,${rgbaFromHex(gradient, .88)},${rgbaFromHex(background, .96)})`);
   const overlay = Number.isFinite(deck.backgroundOverlayOpacity) ? deck.backgroundOverlayOpacity : .42;
@@ -111,6 +119,7 @@ function applyDeckTheme(deck) {
 function showError(message) { const toast = $('#error-toast'); toast.textContent = message; toast.hidden = false; setTimeout(() => toast.hidden = true, 5000); }
 function showScreen(name) {
   for (const [id, screen] of Object.entries(screens)) { screen.hidden = id !== name; screen.classList.toggle('active', id === name); }
+  document.title = selectedDeck && (name === 'guide' || name === 'play') ? `${selectedDeck.title} — Nơi ta thấu hiểu` : 'Nơi ta thấu hiểu';
   window.scrollTo(0, 0);
 }
 function delay(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
@@ -134,9 +143,8 @@ async function loadDecks() {
     }));
     decks = results.filter(Boolean);
     if (!decks.length) showError('Chưa thể tải bộ bài. Hãy thử tải lại trang.');
-    renderFilters();
-    renderDecks();
   } catch (error) { console.error(error); showError('Không thể tải thư viện. Hãy thử tải lại trang.'); }
+  finally { $('#library-status').hidden = true; renderFilters(); renderDecks(); }
 }
 
 function renderFilters() {
@@ -161,6 +169,7 @@ function renderDecks() {
   } else tileImageObserver = null;
   for (const deck of matches) {
     const button = document.createElement('button'); button.type = 'button'; button.className = `deck-tile${deck.backgroundImagePath ? ' deck-tile-art' : ''}`;
+    button.style.backgroundColor = deck.backgroundColor ?? '#282537';
     button.setAttribute('aria-label', `Mở bộ bài ${deck.title}, ${deck.cardCount} lá`);
     const image = document.createElement('span'); image.className = 'deck-tile-image';
     const tileAsset = assetFor(deck, true);
@@ -170,19 +179,19 @@ function renderDecks() {
       else loadTileImage(image);
     } else image.style.backgroundImage = `linear-gradient(140deg,${deck.backgroundColor ?? '#292832'},${deck.gradientEndColor ?? '#39313B'})`;
     const shade = document.createElement('span'); shade.className = 'deck-tile-shade';
-    if (deck.backgroundImagePath) {
-      const tileBase = deck.backgroundColor ?? '#171B22';
-      shade.style.backgroundImage = `linear-gradient(90deg,${rgbaFromHex(tileBase, .98)} 0%,${rgbaFromHex(tileBase, .98)} 39%,${rgbaFromHex(tileBase, .78)} 53%,${rgbaFromHex(tileBase, .06)} 73%,transparent 100%)`;
-    }
     const content = document.createElement('span'); content.className = 'deck-tile-content';
-    const category = document.createElement('span'); category.className = 'tile-category'; category.textContent = `✦   ${deck.category.toUpperCase()}`;
+    const category = document.createElement('span'); category.className = 'tile-category'; category.textContent = `✦   ${deck.category}`;
     const title = document.createElement('span'); title.className = 'tile-title'; title.textContent = deck.title;
     const subtitle = document.createElement('span'); subtitle.className = 'tile-subtitle'; subtitle.textContent = deck.subtitle;
     const footer = document.createElement('span'); footer.className = 'tile-footer'; footer.innerHTML = `<span>${deck.cardCount} LÁ BÀI</span><span class="tile-rule"></span><span class="tile-arrow" aria-hidden="true">↗</span>`;
     content.append(category, title, subtitle, footer); button.append(image, shade, content);
     button.addEventListener('click', () => openDeck(deck, button)); grid.append(button);
   }
-  $('#empty-state').hidden = matches.length > 0;
+  const empty = $('#empty-state');
+  empty.hidden = matches.length > 0;
+  $('#empty-title').textContent = decks.length ? 'Chưa tìm thấy bộ bài phù hợp' : 'Chưa tải được bộ bài';
+  $('#empty-copy').textContent = decks.length ? 'Thử từ khóa khác hoặc hiện lại toàn bộ thư viện.' : 'Hãy tải lại trang để thử mở thư viện.';
+  $('#empty-recover').textContent = decks.length ? 'Hiện tất cả bộ bài' : 'Tải lại trang';
 }
 
 async function enterLibrary() {
@@ -190,17 +199,18 @@ async function enterLibrary() {
   navigationBusy = true;
   playEffect('library_whoosh'); pulseHaptic(10);
   screens.intro.classList.add('leaving');
-  await delay(reducedMotion.matches ? 180 : 1750);
-  showScreen('library'); navigationBusy = false;
+  await delay(reducedMotion.matches ? 180 : 850);
+  showScreen('library'); $('#library-title').focus({ preventScroll: true }); navigationBusy = false;
 }
 async function openDeck(deck, source) {
   if (navigationBusy) return;
-  navigationBusy = true; selectedDeck = deck; progress = loadProgress(deck.id);
+  navigationBusy = true; selectedDeck = deck; lastDeckButton = source; progress = loadProgress(deck.id);
   playEffect('card_slide'); pulseHaptic(10);
   const image = assetFor(deck);
   applyDeckTheme(deck);
   $('.guide-title').textContent = deck.title;
-  $('.guide-title').classList.toggle('sr-only', Boolean(image));
+  $('.guide-title').classList.remove('sr-only');
+  $('.guide-topline').textContent = `${deck.category} · ${deck.cardCount} lá`;
   $('.guide-description').textContent = deck.introMessage ?? 'Nhấn vào màn hình, lá bài với nội dung bất kì sẽ xuất hiện, việc của bạn là hãy tận hưởng câu hỏi đấy.';
   $('#play-deck-title').textContent = deck.title;
   $('#play-deck-title').classList.remove('sr-only');
@@ -208,8 +218,9 @@ async function openDeck(deck, source) {
   $('#confirm-text').textContent = `Các lá đã rút và lá đang hiển thị của bộ ${deck.title} sẽ được xóa.`;
   const rect = source.getBoundingClientRect();
   const overlay = document.createElement('div'); overlay.className = 'deck-opening-overlay';
-  overlay.style.left = `${rect.left}px`; overlay.style.top = `${rect.top}px`;
-  overlay.style.width = `${rect.width}px`; overlay.style.height = `${rect.height}px`;
+  const offsetX = rect.left + rect.width / 2 - window.innerWidth / 2;
+  const offsetY = rect.top + rect.height / 2 - window.innerHeight / 2;
+  overlay.style.setProperty('--opening-from', `translate3d(${offsetX}px,${offsetY}px,0) scale(${rect.width / window.innerWidth},${rect.height / window.innerHeight})`);
   const overlayOpacity = Number.isFinite(deck.backgroundOverlayOpacity) ? deck.backgroundOverlayOpacity : .42;
   const openingWash = rgbaFromHex(deck.backgroundColor ?? '#171B22', Math.min(.72, overlayOpacity + .12));
   overlay.style.backgroundImage = image
@@ -222,21 +233,23 @@ async function openDeck(deck, source) {
     await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
     overlay.classList.add('is-opening');
   }
-  await delay(reducedMotion.matches ? 150 : 1350);
+  await delay(reducedMotion.matches ? 150 : 800);
   overlay.remove();
+  $('#guide-start').focus({ preventScroll: true });
   navigationBusy = false;
 }
 async function startPlay() {
   if (navigationBusy) return;
   navigationBusy = true;
   screens.guide.classList.add('opening');
-  await delay(reducedMotion.matches ? 100 : 1350);
+  await delay(reducedMotion.matches ? 100 : 650);
   screens.guide.classList.remove('opening');
   showScreen('play');
   const currentCard = cardsByDeck.get(selectedDeck.id)?.find(card => card.id === progress.currentCardId);
   if (currentCard) renderCard(currentCard, false); else renderCardBack();
-  applyCardTextScale(); updateProgress(); navigationBusy = false;
+  applyCardTextScale(); updateProgress(); ($('#draw-card').disabled ? $('#replay-button') : $('#draw-card')).focus({ preventScroll: true }); navigationBusy = false;
 }
+function returnToLibrary() { showScreen('library'); lastDeckButton?.focus(); }
 function loadProgress(deckId) {
   const saved = loadJSON(PROGRESS_PREFIX + deckId, { seen: [], drawCount: 0, round: 1 });
   const validIds = new Set((cardsByDeck.get(deckId) ?? []).map(card => card.id));
@@ -258,7 +271,7 @@ function updateProgress() {
   const count = progress.seen.length;
   $('#progress-wrap').hidden = !settings.showProgress;
   $('#progress-label').textContent = `ĐÃ RÚT ${count}/${total} · CÒN ${Math.max(0, total - count)}`;
-  $('#progress-bar').style.width = `${Math.min(100, count / total * 100)}%`;
+  $('#progress-bar').style.transform = `scaleX(${total > 0 ? Math.min(1, count / total) : 0})`;
   const ended = settings.mode === 'stop' && progress.seen.length >= total;
   $('#end-actions p').textContent = selectedDeck.contentZoneCount === 2
     ? `Đã đi qua tất cả ${total} cặp Thật/Thách. Bạn có thể bắt đầu lượt mới.`
@@ -281,7 +294,7 @@ function renderCardBack() {
   const words = selectedDeck.title.split(' ');
   const title = $('.card-back-title'); title.replaceChildren(document.createTextNode(words.shift() ?? ''));
   if (words.length) { const line = document.createElement('em'); line.textContent = words.join(' '); title.append(document.createElement('br'), line); }
-  $('.card-back-caption').textContent = selectedDeck.contentZoneCount === 2 ? 'THẬT HAY THÁCH · NGƯỜI RÚT' : 'MỘT CÂU HỎI CHO HAI NGƯỜI';
+  $('.card-back-caption').textContent = selectedDeck.contentZoneCount === 2 ? 'THẬT HAY THÁCH · NGƯỜI RÚT' : 'CHẠM ĐỂ RÚT MỘT LÁ BÀI';
   $('#live-announcement').textContent = '';
 }
 function renderCard(cardData, announce = true) {
@@ -435,12 +448,27 @@ function changeCardTextScale(amount) { updateSettings({ cardTextScale: Math.roun
 function openConfirmation() { $('#confirm-overlay').hidden = false; $('#confirm-cancel').focus(); }
 function closeConfirmation() { $('#confirm-overlay').hidden = true; $('#reset-button').focus(); }
 function resetProgress() { progress = { seen: [], currentCardId: null, drawCount: 0, completedDraws: 0, round: 1 }; saveProgress(); renderCardBack(); updateProgress(); $('#live-announcement').textContent = 'Bộ bài đã được xáo lại từ đầu.'; }
+function trapDialogFocus(event, dialog) {
+  if (event.key !== 'Tab') return;
+  const focusable = [...dialog.querySelectorAll('button:not([disabled]), input:not([disabled]), a[href], summary')]
+    .filter(element => element.getClientRects().length);
+  if (!focusable.length) return;
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+  if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+  else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+}
 
+$('#skip-to-library').addEventListener('click', event => { event.preventDefault(); showScreen('library'); $('#deck-heading').focus(); $('#deck-heading').scrollIntoView(); });
 $('#intro-enter').addEventListener('click', enterLibrary);
 $('#deck-search').addEventListener('input', renderDecks);
-$('#guide-back').addEventListener('click', () => showScreen('library'));
+$('#empty-recover').addEventListener('click', () => {
+  if (!decks.length) { window.location.reload(); return; }
+  selectedCategory = 'Tất cả'; $('#deck-search').value = ''; renderFilters(); renderDecks(); $('#deck-search').focus();
+});
+$('#guide-back').addEventListener('click', returnToLibrary);
 $('#guide-start').addEventListener('click', startPlay);
-$('#play-back').addEventListener('click', () => { if (!drawBusy) showScreen('library'); });
+$('#play-back').addEventListener('click', () => { if (!drawBusy) returnToLibrary(); });
 $('#draw-card').addEventListener('click', drawCard);
 $('#replay-button').addEventListener('click', resetProgress);
 $('#options-open').addEventListener('click', openOptions);
@@ -456,10 +484,22 @@ $('#scale-up').addEventListener('click', () => changeCardTextScale(CARD_SCALE_ST
 $('#reset-button').addEventListener('click', openConfirmation);
 $('#confirm-cancel').addEventListener('click', closeConfirmation);
 $('#confirm-reset').addEventListener('click', () => { resetProgress(); closeConfirmation(); closeOptions(); });
-document.addEventListener('keydown', event => { if (event.key === 'Escape') { if (!$('#confirm-overlay').hidden) closeConfirmation(); else if (!$('#options-overlay').hidden) closeOptions(); } });
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape') {
+    if (!$('#confirm-overlay').hidden) closeConfirmation();
+    else if (!$('#options-overlay').hidden) closeOptions();
+    else if ($('#install-guide').open) $('#install-guide').open = false;
+  } else if (!$('#confirm-overlay').hidden) trapDialogFocus(event, $('#confirm-overlay'));
+  else if (!$('#options-overlay').hidden) trapDialogFocus(event, $('#options-overlay'));
+});
 
+if (navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches) document.documentElement.classList.add('is-standalone');
 loadDecks();
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
+if ('serviceWorker' in navigator) window.addEventListener('load', () => {
+  navigator.serviceWorker.register('./sw.js')
+    .then(registration => registration.update())
+    .catch(() => {});
+});
 function syncViewportHeight() { document.documentElement.style.setProperty('--app-height', `${window.innerHeight}px`); }
 syncViewportHeight();
 window.addEventListener('resize', () => requestAnimationFrame(syncViewportHeight), { passive: true });
