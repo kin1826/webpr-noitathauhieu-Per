@@ -1,0 +1,804 @@
+{
+  "cards": [
+    {
+      "id": "uong-nhanh-len-01",
+      "zones": [
+        {
+          "mainText": "Cụng ly với người ngồi đối diện và nói một câu chúc thật sến."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-02",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nhỏ rồi chuyển lượt cho người bên trái."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-03",
+      "zones": [
+        {
+          "mainText": "Để người bên phải đặt cho Bạn một biệt danh và dùng nó đến hết ván."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-04",
+      "zones": [
+        {
+          "mainText": "Oẳn tù tì với người bên trái; người thua uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-05",
+      "zones": [
+        {
+          "mainText": "Chọn một người trong bàn và dành cho họ một lời khen thật lòng."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-06",
+      "zones": [
+        {
+          "mainText": "Nói nhanh năm món có thể tìm thấy trên bàn; nói sai thì uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-07",
+      "zones": [
+        {
+          "mainText": "Hát một câu bất kỳ do cả bàn chọn."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-08",
+      "zones": [
+        {
+          "mainText": "Cụng ly với tất cả người đang mặc đồ màu tối."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-09",
+      "zones": [
+        {
+          "mainText": "Đọc một câu chúc mừng thật trang trọng như đang phát biểu trên sân khấu."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-10",
+      "zones": [
+        {
+          "mainText": "Để cả bàn bình chọn người có nụ cười nguy hiểm nhất; người được chọn uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-11",
+      "zones": [
+        {
+          "mainText": "Đổi chỗ với người ngồi đối diện trong một lượt."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-12",
+      "zones": [
+        {
+          "mainText": "Chọn một người làm đồng đội; hai Bạn cùng uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-13",
+      "zones": [
+        {
+          "mainText": "Nói một câu thả thính bằng giọng nghiêm túc nhất có thể."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-14",
+      "zones": [
+        {
+          "mainText": "Kể một chuyện ngượng ngùng vui vẻ từng xảy ra với Bạn."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-15",
+      "zones": [
+        {
+          "mainText": "Để cả bàn chọn một từ; dùng từ đó trong ba câu liên tiếp."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-16",
+      "zones": [
+        {
+          "mainText": "Chọn một người và cụng ly bằng tay không thuận."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-17",
+      "zones": [
+        {
+          "mainText": "Đọc to một tin nhắn gần đây trong nhóm chơi, nhưng được quyền bỏ qua tin riêng tư."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-18",
+      "zones": [
+        {
+          "mainText": "Chọn một người trong bàn để cùng tạo dáng chụp ảnh nhóm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-19",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu hôm nay Bạn đã soi gương hơn ba lần."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-20",
+      "zones": [
+        {
+          "mainText": "Để người đối diện chọn một bài hát; ngân nga điệp khúc trong mười giây."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-21",
+      "zones": [
+        {
+          "mainText": "Nói tên ba người trong bàn theo thứ tự từ trái sang phải mà không nhìn quanh."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-22",
+      "zones": [
+        {
+          "mainText": "Chọn một người và bắt chước cách họ cụng ly."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-23",
+      "zones": [
+        {
+          "mainText": "Chỉ được nói bằng câu hỏi cho đến lượt tiếp theo; lỡ nói câu thường thì uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-24",
+      "zones": [
+        {
+          "mainText": "Mời người ngồi cạnh cụng ly bằng một lời mời thật duyên."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-25",
+      "zones": [
+        {
+          "mainText": "Kể tên một món ăn Bạn muốn gọi ngay lúc này; cả bàn đồng ý thì Bạn được chọn món."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-26",
+      "zones": [
+        {
+          "mainText": "Tự giới thiệu bản thân như thể đang bước vào một buổi hẹn đầu tiên."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-27",
+      "zones": [
+        {
+          "mainText": "Để cả bàn chọn một emoji; dùng emoji đó làm nét mặt trong năm giây."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-28",
+      "zones": [
+        {
+          "mainText": "Chọn một người và thi xem ai giữ được vẻ mặt nghiêm túc lâu hơn; người cười trước uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-29",
+      "zones": [
+        {
+          "mainText": "Nói một câu bằng giọng phát thanh viên rồi cụng ly với người bên phải."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-30",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu trong tuần này Bạn từng nhắn “đang tới” khi vẫn còn ở nhà."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-31",
+      "zones": [
+        {
+          "mainText": "Gửi vào nhóm chơi một emoji thả thính do người bên trái chọn."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-32",
+      "zones": [
+        {
+          "mainText": "Chọn một người và nói với họ một câu khen khiến họ phải bật cười."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-33",
+      "zones": [
+        {
+          "mainText": "Để người bên phải chọn một bài hát làm nhạc chuông tưởng tượng; ngân nga bài đó mười giây."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-34",
+      "zones": [
+        {
+          "mainText": "Nói một câu “Mình nhớ Bạn” với người Bạn chọn bằng giọng thật tình cảm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-35",
+      "zones": [
+        {
+          "mainText": "Mời một người tự nguyện cùng Bạn chụp một tấm ảnh selfie."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-36",
+      "zones": [
+        {
+          "mainText": "Để cả bàn chọn một từ; nói từ đó như thể đang tỏ tình."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-37",
+      "zones": [
+        {
+          "mainText": "Chọn một người và gửi cho họ một tin nhắn tán tỉnh ngay trong nhóm chơi."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-38",
+      "zones": [
+        {
+          "mainText": "Kể tên một buổi hẹn hò Bạn muốn thử rồi mời một người trong bàn đi cùng."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-39",
+      "zones": [
+        {
+          "mainText": "Nói một lời khen về phong cách của người ngồi đối diện."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-40",
+      "zones": [
+        {
+          "mainText": "Nếu có người yêu trong bàn, hãy nắm tay họ trong hai mươi giây; nếu không, cụng ly với người Bạn chọn."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-41",
+      "zones": [
+        {
+          "mainText": "Đăng một story chỉ chụp ly nước hoặc bàn tiệc, không gắn thẻ ai."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-42",
+      "zones": [
+        {
+          "mainText": "Viết một dòng trạng thái thả thính vào phần ghi chú, cho cả bàn xem trước khi đăng hoặc xoá."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-43",
+      "zones": [
+        {
+          "mainText": "Để người bên trái chọn một sticker; gửi sticker đó vào nhóm chơi."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-44",
+      "zones": [
+        {
+          "mainText": "Chụp một tấm ảnh cả bàn với biểu cảm nghiêm túc nhất có thể."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-45",
+      "zones": [
+        {
+          "mainText": "Chọn một người và nhờ họ đặt caption cho ảnh nhóm vừa chụp."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-46",
+      "zones": [
+        {
+          "mainText": "Đọc một dòng bất kỳ trong phần ghi chú của mình; được quyền chọn nội dung không riêng tư."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-47",
+      "zones": [
+        {
+          "mainText": "Mở camera trước và chụp một tấm selfie với người ngồi cạnh."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-48",
+      "zones": [
+        {
+          "mainText": "Để người bên phải chọn một bài hát; gửi tên bài đó vào nhóm chơi."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-49",
+      "zones": [
+        {
+          "mainText": "Soạn một tin nhắn “Tối nay vui ghê” rồi gửi vào nhóm chơi."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-50",
+      "zones": [
+        {
+          "mainText": "Chọn một người để cùng quay một đoạn video cụng ly năm giây."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-51",
+      "zones": [
+        {
+          "mainText": "Nói một câu tán tỉnh với người Bạn thấy cuốn hút nhất trong bàn."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-52",
+      "zones": [
+        {
+          "mainText": "Mời một người tự nguyện khiêu vũ cùng Bạn trong mười giây."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-53",
+      "zones": [
+        {
+          "mainText": "Xin một cái ôm từ người Bạn chọn; nếu họ không muốn, cụng ly với họ."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-54",
+      "zones": [
+        {
+          "mainText": "Hôn má người yêu nếu cả hai cùng muốn; nếu không, gửi một nụ hôn gió."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-55",
+      "zones": [
+        {
+          "mainText": "Nhìn vào mắt người đối diện trong mười giây mà không cười."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-56",
+      "zones": [
+        {
+          "mainText": "Thì thầm một lời khen vào tai người tự nguyện ngồi cạnh Bạn."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-57",
+      "zones": [
+        {
+          "mainText": "Chọn một người và nói cho họ biết Bạn thấy điểm gì ở họ hấp dẫn nhất."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-58",
+      "zones": [
+        {
+          "mainText": "Mời người Bạn chọn cụng ly bằng một câu tán tỉnh."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-59",
+      "zones": [
+        {
+          "mainText": "Tựa đầu lên vai người tự nguyện ngồi cạnh Bạn trong mười giây."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-60",
+      "zones": [
+        {
+          "mainText": "Để người yêu chọn một kiểu ôm; thực hiện trong mười giây nếu cả hai thấy thoải mái."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-61",
+      "zones": [
+        {
+          "mainText": "Nói một câu có ý tán tỉnh mà không dùng từ “đẹp”, “xinh” hoặc “dễ thương”."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-62",
+      "zones": [
+        {
+          "mainText": "Chọn một người và gửi cho họ một lời mời hẹn hò thật ngắn."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-63",
+      "zones": [
+        {
+          "mainText": "Để người đối diện chọn một kiểu bắt tay; làm theo rồi cụng ly."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-64",
+      "zones": [
+        {
+          "mainText": "Mời một người tự nguyện chụp ảnh đôi cùng Bạn."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-65",
+      "zones": [
+        {
+          "mainText": "Nói một câu khiến người ngồi đối diện đỏ mặt nhưng vẫn lịch sự."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-66",
+      "zones": [
+        {
+          "mainText": "Chọn một người và dành cho họ một cái ôm nếu họ đồng ý."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-67",
+      "zones": [
+        {
+          "mainText": "Thì thầm vào ly một lời chúc rồi cụng ly với người bên phải."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-68",
+      "zones": [
+        {
+          "mainText": "Tạo một dáng chụp ảnh đôi với người tự nguyện được Bạn chọn."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-69",
+      "zones": [
+        {
+          "mainText": "Nói một câu tán tỉnh bằng giọng thì thầm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-70",
+      "zones": [
+        {
+          "mainText": "Chọn một người và cùng họ tạo hình trái tim bằng tay."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-71",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng xoá tin nhắn rồi gõ lại trước khi gửi cho người mình thích."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-72",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng giả vờ bận để chờ ai đó nhắn trước."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-73",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng xem trang cá nhân của người mình thích nhiều hơn một lần trong ngày."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-74",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng thức khuya chỉ để nói chuyện với ai đó."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-75",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng chuẩn bị câu trả lời trước khi gặp người mình thích."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-76",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng cố tình đăng story để một người cụ thể nhìn thấy."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-77",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng đọc lại tin nhắn cũ vì nhớ ai đó."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-78",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng ghen nhưng vẫn nói “không sao”."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-79",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng giả vờ không thấy tin nhắn dù đã đọc."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-80",
+      "zones": [
+        {
+          "mainText": "Uống một ngụm nếu Bạn từng thấy tim đập nhanh khi người mình thích gọi tên."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-81",
+      "zones": [
+        {
+          "mainText": "Chọn một người và để họ quyết định Bạn sẽ cụng ly với ai tiếp theo."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-82",
+      "zones": [
+        {
+          "mainText": "Cả bàn cùng đếm từ một đến mười; ai nói trùng số với người khác uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-83",
+      "zones": [
+        {
+          "mainText": "Chọn một chủ đề; mỗi người lần lượt nói một từ liên quan, ai bí trước uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-84",
+      "zones": [
+        {
+          "mainText": "Nói tên một bộ phim tình cảm; người kế tiếp phải nói thêm một phim khác trong ba giây."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-85",
+      "zones": [
+        {
+          "mainText": "Mời cả bàn cùng nâng ly và hô một câu khẩu hiệu do Bạn nghĩ ra."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-86",
+      "zones": [
+        {
+          "mainText": "Chọn một người để thi nhìn nhau; ai chớp mắt trước uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-87",
+      "zones": [
+        {
+          "mainText": "Để người bên phải chọn một động tác tay; cả bàn cùng làm theo."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-88",
+      "zones": [
+        {
+          "mainText": "Cả bàn lần lượt nói một lời khen cho người rút lá; ai bí quá ba giây uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-89",
+      "zones": [
+        {
+          "mainText": "Chọn một người làm trọng tài cho lượt tiếp theo và cụng ly cảm ơn họ."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-90",
+      "zones": [
+        {
+          "mainText": "Đổi ly với người tự nguyện ngồi cạnh sau khi cả hai cùng xác nhận đó là đồ uống của mình."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-91",
+      "zones": [
+        {
+          "mainText": "Kể một câu chuyện trong đúng ba câu; kể dài hơn thì uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-92",
+      "zones": [
+        {
+          "mainText": "Đọc bảng chữ cái ngược từ Z đến T; sai thì uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-93",
+      "zones": [
+        {
+          "mainText": "Nói ba câu liên tiếp mà không dùng từ “tôi”; lỡ lời thì uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-94",
+      "zones": [
+        {
+          "mainText": "Chọn một người và cùng họ nghĩ ra tên nhóm chat cho buổi tối nay."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-95",
+      "zones": [
+        {
+          "mainText": "Đặt một câu chúc có đủ ba từ “bia”, “duyên” và “mai”."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-96",
+      "zones": [
+        {
+          "mainText": "Nói một câu cụng ly dành riêng cho người ngồi bên trái."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-97",
+      "zones": [
+        {
+          "mainText": "Để cả bàn chọn một người; người đó được quyền giao cho Bạn một thử thách nhẹ trong lượt này."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-98",
+      "zones": [
+        {
+          "mainText": "Mời người ngồi đối diện chọn giữa cụng ly, chụp ảnh chung hoặc cùng uống một ngụm."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-99",
+      "zones": [
+        {
+          "mainText": "Chọn một người tự nguyện và cùng họ tạo dáng như ảnh bìa album của hai người."
+        }
+      ]
+    },
+    {
+      "id": "uong-nhanh-len-100",
+      "zones": [
+        {
+          "mainText": "Cả bàn cùng cụng ly; người rút lá chọn bài hát tiếp theo."
+        }
+      ]
+    }
+  ]
+}

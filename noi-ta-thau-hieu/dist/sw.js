@@ -1,5 +1,41 @@
-const CACHE = 'noi-ta-thau-hieu-v10';
-const ASSETS = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './assets/icon.svg', './assets/trai-long-background.png', './assets/noi-hay-nam-back.png', './assets/loi-hay-lam-back.png', './assets/loi-hay-nam-back.png', './assets/CormorantGaramond-Medium.ttf', './assets/BeVietnamPro-Regular.ttf', './assets/sounds/library_whoosh.wav', './assets/sounds/card_slide.wav', './assets/sounds/card_shuffle_fast.wav', './assets/sounds/card_shuffle_normal.wav', './data/deck-index.json', './data/trai-long.json', './data/noi-hay-nam.json', './data/loi-hay-lam.json', './data/loi-hay-nam.json'];
-self.addEventListener('install', event => { event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting())); });
-self.addEventListener('activate', event => { event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim())); });
-self.addEventListener('fetch', event => { if (event.request.method !== 'GET') return; event.respondWith(caches.match(event.request).then(cached => cached || fetch(event.request).then(response => { if (response.ok && new URL(event.request.url).origin === self.location.origin) { const clone = response.clone(); caches.open(CACHE).then(cache => cache.put(event.request, clone)); } return response; }))); });
+const CACHE = 'noi-ta-thau-hieu-v6';
+const CORE_ASSETS = [
+  './', './index.html', './styles.css', './app.js', './manifest.webmanifest',
+  './assets/favicon-32.png', './assets/apple-touch-icon.png', './assets/icon-192.png', './assets/icon-512.png',
+  './assets/logo-192.png', './assets/trai-long-background.jpg',
+  './assets/CormorantGaramond-Medium.ttf', './assets/BeVietnamPro-Regular.ttf',
+  './data/deck-index.json', './data/trai-long.json', './data/sau-canh-cua.json',
+  './data/quyt-ki.json', './data/noi-hay-nam.json', './data/loi-hay-lam.json',
+  './data/loi-hay-nam.json', './data/lam-di-dung-noi.json', './data/uong-nhanh-len.json'
+];
+
+self.addEventListener('install', event => {
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE_ASSETS)).then(() => self.skipWaiting()));
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil(caches.keys()
+    .then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))
+    .then(() => self.clients.claim()));
+});
+
+self.addEventListener('fetch', event => {
+  const request = event.request;
+  if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return;
+  event.respondWith((async () => {
+    const cache = await caches.open(CACHE);
+    const cached = await cache.match(request, { ignoreSearch: true });
+    if (cached) return cached;
+    try {
+      const response = await fetch(request);
+      if (response.ok) await cache.put(request, response.clone());
+      return response;
+    } catch (error) {
+      if (request.mode === 'navigate') {
+        const offlinePage = await cache.match('./index.html');
+        if (offlinePage) return offlinePage;
+      }
+      throw error;
+    }
+  })());
+});

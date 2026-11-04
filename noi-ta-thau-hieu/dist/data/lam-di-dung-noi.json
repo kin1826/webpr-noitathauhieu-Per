@@ -1,0 +1,394 @@
+{
+  "cards": [
+    {
+      "id": "lam-di-dung-noi-01",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có thích chat sex không? Vì sao?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Gửi cho đối phương một tin nhắn tán tỉnh dù hai người đang ngồi cạnh nhau."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-02",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Giữa hai Bạn, ai sẽ là người chủ động hôn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Viết lên giấy một điều Bạn muốn đối phương làm cùng mình ngay lúc này."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-03",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn nghĩ gì về việc đối phương mặc đồ của Bạn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Đổi một món đồ trên người Bạn với đối phương."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-04",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích sự gần gũi nhẹ nhàng hay mạnh bạo hơn? Vì sao?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hét thật lớn tên của đối phương ba lần."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-05",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Nếu đối phương vô tình để lộ bí mật của Bạn, Bạn nghĩ họ sẽ làm gì với bí mật đó?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Massage vai cho đối phương."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-06",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Kể về một tư thế Bạn muốn thử cùng đối phương nhất."
+        },
+        {
+          "label": "Thách",
+          "mainText": "Để đối phương đút cho Bạn ăn một món bất kỳ."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-07",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều Bạn yêu thích nhất về đối phương là gì? Vì sao?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Gửi riêng cho đối phương một tấm ảnh thật sexy."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-08",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Hãy mô tả tính cách của đối phương."
+        },
+        {
+          "label": "Thách",
+          "mainText": "Thả tim vào ba bài viết bất kỳ của người yêu cũ."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-09",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Hãy mô tả một buổi hẹn hò hoàn hảo mà Bạn mong muốn."
+        },
+        {
+          "label": "Thách",
+          "mainText": "Dành một ngày cuối tuần để hẹn hò cùng đối phương."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-10",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Hai Bạn đã từng cãi nhau vì chuyện gì? Vì sao?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nắm tay đối phương và nói một điều Bạn luôn trân trọng ở họ."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-11",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích được đối phương hôn bất ngờ hay thích có tín hiệu trước?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Bịt mắt đối phương rồi hôn nhẹ lên trán họ."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-12",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Khi ở cạnh đối phương, Bạn thích ngồi sát bên, tựa vai hay ngồi trong lòng họ hơn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Ngồi vào lòng đối phương trong năm phút."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-13",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Lần đầu gặp đối phương, điều gì khiến Bạn chú ý nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Kể cho đối phương nghe ấn tượng đầu tiên của Bạn về họ."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-14",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thấy đối phương quyến rũ nhất trong khoảnh khắc nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Thì thầm vào tai đối phương một lời khen thật lòng."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-15",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn muốn đối phương gọi mình bằng biệt danh gì khi chỉ có hai người?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Đặt cho đối phương một biệt danh riêng và gọi họ bằng biệt danh đó."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-16",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích được hôn lên trán, má hay môi nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Hôn nhẹ lên vị trí mà đối phương vừa chọn."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-17",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có tin nhắn nào của đối phương khiến Bạn đọc lại nhiều lần không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Gửi cho đối phương một tin nhắn khiến họ phải mỉm cười."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-18",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích được ôm từ phía trước hay từ phía sau hơn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Ôm đối phương theo kiểu Bạn thích trong 15 giây."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-19",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Trong một buổi hẹn, có khoảnh khắc nào khiến Bạn muốn thời gian trôi chậm lại không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói với đối phương một khoảnh khắc Bạn muốn hai người cùng trải nghiệm lại."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-20",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì có thể biến một buổi hẹn bình thường thành buổi hẹn đặc biệt với Bạn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Chọn một bài hát cho buổi hẹn tiếp theo của hai người."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-21",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích đối phương thể hiện rằng họ nhớ Bạn bằng lời nói hay hành động?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nhìn vào mắt đối phương và nói: “Mình nhớ Bạn.”"
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-22",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có thói quen nhỏ nào của đối phương khiến Bạn thấy thích không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói cho đối phương biết chính xác thói quen đó là gì."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-23",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn có thích thể hiện tình cảm với đối phương ở nơi công cộng không? Bạn thích kiểu nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nắm tay đối phương trong 20 giây."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-24",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích buổi hẹn hò có phong cách ăn mặc như thế nào?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Chọn một món đồ mà đối phương có thể mặc trong buổi hẹn tiếp theo."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-25",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Phong cách nào của đối phương khiến Bạn thấy họ hấp dẫn nhất?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Khen đối phương một chi tiết cụ thể về phong cách của họ."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-26",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích được tỏ tình thẳng thắn hay thích một bất ngờ lãng mạn hơn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói với đối phương một câu tán tỉnh sến nhất mà Bạn nghĩ ra."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-27",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn dễ rung động nhất khi đối phương làm điều gì?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nhìn vào mắt đối phương và nói một câu tán tỉnh trong năm giây."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-28",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Bạn thích buổi tối riêng tư yên tĩnh hay một buổi tối có nhiều bất ngờ hơn?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Cất điện thoại xuống, ngồi sát bên đối phương và nhìn vào mắt họ trong 20 giây."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-29",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Điều gì đối phương làm khiến Bạn cảm thấy mình được khao khát?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Nói cho đối phương biết một cử chỉ nhỏ khiến Bạn cảm thấy như vậy."
+        }
+      ]
+    },
+    {
+      "id": "lam-di-dung-noi-30",
+      "zones": [
+        {
+          "label": "Thật",
+          "mainText": "Có điều thân mật vui vẻ nào Bạn muốn hai người thử trong buổi hẹn tới không?"
+        },
+        {
+          "label": "Thách",
+          "mainText": "Thì thầm ý tưởng đó với đối phương và cùng chọn một dịp để thực hiện."
+        }
+      ]
+    }
+  ]
+}

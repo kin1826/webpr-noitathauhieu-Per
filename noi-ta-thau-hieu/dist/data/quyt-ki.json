@@ -1,0 +1,454 @@
+{
+  "cards": [
+    {
+      "id": "quyt-ki-01",
+      "zones": [
+        {
+          "mainText": "Khoảnh khắc nào khiến Bạn thấy người kia hấp dẫn nhất?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-02",
+      "zones": [
+        {
+          "mainText": "Hôn môi người kia thật chậm trong 10 giây.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-03",
+      "zones": [
+        {
+          "mainText": "Có điều gì về cơ thể người kia khiến Bạn khó rời mắt?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-04",
+      "zones": [
+        {
+          "mainText": "Thì thầm vào tai người kia một điều Bạn muốn họ làm trong buổi tối này.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-05",
+      "zones": [
+        {
+          "mainText": "Bạn thích được người kia chủ động gần gũi theo cách nào?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-06",
+      "zones": [
+        {
+          "mainText": "Ôm người kia từ phía sau, áp sát và giữ nguyên trong 20 giây.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-07",
+      "zones": [
+        {
+          "mainText": "Bạn từng nghĩ đến một khoảnh khắc thân mật nào với người kia nhưng chưa kể chưa?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-08",
+      "zones": [
+        {
+          "mainText": "Hôn lên cổ hoặc vai người kia thật chậm trong 10 giây.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-09",
+      "zones": [
+        {
+          "mainText": "Cử chỉ nào của người kia khiến Bạn rung động dù họ không nhận ra?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-10",
+      "zones": [
+        {
+          "mainText": "Nhảy chậm cùng người kia trong 30 giây, giữ ánh mắt suốt bài.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-11",
+      "zones": [
+        {
+          "mainText": "Bạn muốn người kia khen điều gì ở mình nhất?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-12",
+      "zones": [
+        {
+          "mainText": "Hôn người kia ở ba nơi họ chọn trong số: trán, má, vai, cổ tay hoặc cổ.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-13",
+      "zones": [
+        {
+          "mainText": "Bạn thích là người dẫn dắt hay được dẫn dắt trong những khoảnh khắc riêng tư?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-14",
+      "zones": [
+        {
+          "mainText": "Ngồi thật gần, vòng tay qua cổ người kia và nhìn nhau trong 20 giây.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-15",
+      "zones": [
+        {
+          "mainText": "Điều gì khiến Bạn cảm thấy mình được khao khát?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-16",
+      "zones": [
+        {
+          "mainText": "Nói một lời tỏ tình thật táo bạo, chỉ dành riêng cho người kia.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-17",
+      "zones": [
+        {
+          "mainText": "Bạn từng ghen vì ai đó được người kia chú ý chưa?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-18",
+      "zones": [
+        {
+          "mainText": "Để người kia chọn một vị trí trên vai hoặc cánh tay để Bạn hôn.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-19",
+      "zones": [
+        {
+          "mainText": "Có kiểu nụ hôn nào Bạn muốn thử cùng người kia?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-20",
+      "zones": [
+        {
+          "mainText": "Hôn lên mu bàn tay người kia, rồi nhìn thẳng vào mắt họ.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-21",
+      "zones": [
+        {
+          "mainText": "Bạn thấy người kia quyến rũ nhất khi mặc gì?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-22",
+      "zones": [
+        {
+          "mainText": "Ghé sát tai người kia và kể một tưởng tượng lãng mạn về hai người trong 15 giây.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-23",
+      "zones": [
+        {
+          "mainText": "Có mong muốn thân mật nào Bạn ngại mở lời vì sợ bị đánh giá?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-24",
+      "zones": [
+        {
+          "mainText": "Đặt tay lên eo người kia, kéo họ lại gần và giữ nguyên trong 10 giây.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-25",
+      "zones": [
+        {
+          "mainText": "Bạn muốn người kia làm gì nhiều hơn trong những lúc chỉ có hai người?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-26",
+      "zones": [
+        {
+          "mainText": "Hôn người kia một lần thật nhẹ, dừng lại vài giây, rồi hôn thêm lần nữa thật lâu.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-27",
+      "zones": [
+        {
+          "mainText": "Bạn từng cố tỏ ra bình tĩnh dù người kia làm Bạn bối rối chưa?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-28",
+      "zones": [
+        {
+          "mainText": "Nói sát bên tai người kia một câu khiến họ đỏ mặt.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-29",
+      "zones": [
+        {
+          "mainText": "Nếu được chọn một kỷ niệm thân mật để sống lại, Bạn sẽ chọn lúc nào?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-30",
+      "zones": [
+        {
+          "mainText": "Cho người kia một nụ hôn lên cổ tay, cánh tay rồi đến vai.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-31",
+      "zones": [
+        {
+          "mainText": "Có điều gì Bạn muốn người kia chủ động hỏi mình nhưng họ chưa từng hỏi?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-32",
+      "zones": [
+        {
+          "mainText": "Tựa trán vào trán người kia, nhắm mắt và giữ im lặng trong 20 giây.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-33",
+      "zones": [
+        {
+          "mainText": "Bạn thích được hôn bất ngờ hay muốn biết trước người kia đang định làm gì?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-34",
+      "zones": [
+        {
+          "mainText": "Chọn một bài nhạc và ghé sát người kia nhảy chậm đến hết bài.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-35",
+      "zones": [
+        {
+          "mainText": "Bạn muốn nghe người kia nói câu gì trong khoảnh khắc thật gần nhau?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-36",
+      "zones": [
+        {
+          "mainText": "Hôn người kia ở vị trí họ chỉ định trên tay, vai hoặc cổ.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-37",
+      "zones": [
+        {
+          "mainText": "Có lần nào Bạn muốn kéo dài một nụ hôn nhưng đã phải dừng lại không?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-38",
+      "zones": [
+        {
+          "mainText": "Nắm tay người kia, đặt lên eo mình và thì thầm một lời mời gọi.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-39",
+      "zones": [
+        {
+          "mainText": "Điều gì khiến Bạn cảm thấy tự tin và hấp dẫn nhất khi ở cạnh người kia?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-40",
+      "zones": [
+        {
+          "mainText": "Hôn người kia trong 10 giây, sau đó nói nhỏ một điều Bạn thích ở họ.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-41",
+      "zones": [
+        {
+          "mainText": "Bạn có muốn thử thay đổi điều gì để những khoảnh khắc riêng tư thú vị hơn?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-42",
+      "zones": [
+        {
+          "mainText": "Để người kia chọn một món phụ kiện của Bạn, tháo ra rồi đeo lại cho Bạn.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-43",
+      "zones": [
+        {
+          "mainText": "Có khoảnh khắc nào Bạn bất ngờ nhận ra mình muốn gần người kia hơn?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-44",
+      "zones": [
+        {
+          "mainText": "Ôm sát người kia, hôn lên vai họ rồi thì thầm tên họ.",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-45",
+      "zones": [
+        {
+          "mainText": "Bạn thích được người kia chạm vào tay, eo, tóc hay vai nhất?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-46",
+      "zones": [
+        {
+          "mainText": "Hãy để người kia dẫn Bạn vào một điệu nhảy thật gần trong 20 giây.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-47",
+      "zones": [
+        {
+          "mainText": "Điều gì Bạn muốn hai người thử cùng nhau nhưng vẫn chưa có dịp?",
+          "note": "Hoặc uống 2 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-48",
+      "zones": [
+        {
+          "mainText": "Nói một câu thật táo bạo về điều Bạn muốn làm cùng người kia, không cần giải thích.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-49",
+      "zones": [
+        {
+          "mainText": "Nếu tối nay chỉ được chọn một điều thân mật để làm cùng nhau, Bạn sẽ chọn gì?",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    },
+    {
+      "id": "quyt-ki-50",
+      "zones": [
+        {
+          "mainText": "Trao cho người kia một nụ hôn thật chậm, rồi nói nhỏ điều Bạn muốn cho lần hẹn tiếp theo.",
+          "note": "Hoặc uống 1 ly"
+        }
+      ]
+    }
+  ]
+}
