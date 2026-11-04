@@ -31,6 +31,72 @@
       "backgroundOverlayOpacity": 0.42
     },
     {
+      "id": "sau-canh-cua",
+      "title": "Sau cánh cửa",
+      "subtitle": "18+ · Câu hỏi riêng tư dành cho hai người trưởng thành.",
+      "category": "Trải lòng",
+      "tags": [
+        "18+",
+        "sau cánh cửa",
+        "cặp đôi",
+        "thân mật",
+        "tình dục",
+        "trải lòng"
+      ],
+      "introMessage": "Chỉ dành cho hai người trưởng thành đã từng quan hệ tình dục với nhau và đủ tin tưởng để trò chuyện về chuyện gần gũi. Bộ bài giúp hai Bạn mở lời những điều còn ngại hỏi; hãy chơi khi cả hai đều thoải mái, và có thể bỏ qua bất kỳ câu nào.",
+      "cardCount": 20,
+      "cardFile": "sau-canh-cua.json",
+      "backgroundColor": "#171B22",
+      "gradientEndColor": "#36313F",
+      "textColor": "#FFF8EF",
+      "accentColor": "#D9BFA9",
+      "contentZoneCount": 1,
+      "introAnimationStyle": "cardReveal",
+      "zoneStyle": {
+        "backgroundColor": "#292832",
+        "textColor": "#FFF8EF",
+        "cornerRadius": 28,
+        "spacing": 18
+      },
+      "mainFontName": "CormorantGaramond-Medium",
+      "uiFontName": "BeVietnamPro-Regular",
+      "backgroundImagePath": "Images/sau-canh-cua-back.png",
+      "backgroundOverlayOpacity": 0.42
+    },
+    {
+      "id": "quyt-ki",
+      "title": "Quýt Ki",
+      "subtitle": "18+ · Câu hỏi và thử thách gần gũi dành cho hai người.",
+      "category": "Drinking",
+      "tags": [
+        "quýt ki",
+        "18+",
+        "drinking",
+        "cặp đôi",
+        "thân mật",
+        "tình cảm"
+      ],
+      "introMessage": "Chỉ dành cho hai người trưởng thành. Hãy chơi khi cả hai đều thoải mái, tôn trọng sự đồng ý và có thể bỏ qua bất kỳ nội dung nào. Mỗi lá có thể chọn trả lời hoặc thực hiện nội dung, hay uống số ly được ghi ở note.",
+      "cardCount": 50,
+      "cardFile": "quyt-ki.json",
+      "backgroundColor": "#171B22",
+      "gradientEndColor": "#36313F",
+      "textColor": "#FFF8EF",
+      "accentColor": "#D9BFA9",
+      "contentZoneCount": 1,
+      "introAnimationStyle": "cardReveal",
+      "zoneStyle": {
+        "backgroundColor": "#292832",
+        "textColor": "#FFF8EF",
+        "cornerRadius": 28,
+        "spacing": 18
+      },
+      "mainFontName": "CormorantGaramond-Medium",
+      "uiFontName": "BeVietnamPro-Regular",
+      "backgroundImagePath": "Images/quyt-ki-back.png",
+      "backgroundOverlayOpacity": 0.42
+    },
+    {
       "id": "noi-hay-nam",
       "title": "Nói Hay Nàm",
       "subtitle": "Bộ nhẹ nhàng nhất thư viện, dành để chơi cùng nhóm bạn.",
@@ -128,6 +194,73 @@
       "uiFontName": "BeVietnamPro-Regular",
       "backgroundImagePath": "Images/loi-hay-nam-back.png",
       "backgroundOverlayOpacity": 0.46
+    },
+    {
+      "id": "lam-di-dung-noi",
+      "title": "Làm đi đừng nói",
+      "subtitle": "18+ · Thật/Thách dành cho hai người, tôn trọng sự đồng ý.",
+      "category": "Drinking",
+      "tags": [
+        "làm đi đừng nói",
+        "drinking",
+        "cặp đôi",
+        "thật",
+        "thách",
+        "tình cảm",
+        "thân mật"
+      ],
+      "introMessage": "Dành cho hai người trưởng thành. Người bốc lá tự trả lời phần Thật hoặc thực hiện phần Thách; chỉ thực hiện hành động thân mật, gửi ảnh riêng tư hoặc thử thách có tiếp xúc khi cả hai cùng đồng ý. Có thể bỏ qua bất kỳ thử thách nào; không lưu hoặc chia sẻ ảnh riêng tư nếu chưa có sự đồng ý. Chạm vào lá để xào và rút lá mới.",
+      "cardCount": 30,
+      "cardFile": "lam-di-dung-noi.json",
+      "backgroundColor": "#28121D",
+      "gradientEndColor": "#28121D",
+      "textColor": "#FFFFFF",
+      "accentColor": "#F47D8D",
+      "contentZoneCount": 2,
+      "introAnimationStyle": "cardReveal",
+      "zoneStyle": {
+        "backgroundColor": "#3A1B2A",
+        "textColor": "#FFFFFF",
+        "cornerRadius": 28,
+        "spacing": 0
+      },
+      "mainFontName": "CormorantGaramond-Medium",
+      "uiFontName": "BeVietnamPro-Regular",
+      "backgroundImagePath": "Images/lam-di-dung-noi-back.png",
+      "backgroundOverlayOpacity": 0.46
+    },
+    {
+      "id": "uong-nhanh-len",
+      "title": "Uống nhanh lênnnn",
+      "subtitle": "100 thử thách vui để chơi cùng bạn bè.",
+      "category": "Drinking",
+      "tags": [
+        "uống nhanh lênnnn",
+        "drinking",
+        "bạn bè",
+        "nhóm bạn",
+        "uống",
+        "thử thách"
+      ],
+      "introMessage": "Bộ thử thách vui dành cho bạn bè. Hãy uống có chừng mực, chỉ làm những điều mọi người thấy thoải mái và có thể bỏ qua bất kỳ thử thách nào.",
+      "cardCount": 100,
+      "cardFile": "uong-nhanh-len.json",
+      "backgroundColor": "#1D1D25",
+      "gradientEndColor": "#39313B",
+      "textColor": "#FFF8EF",
+      "accentColor": "#E3BFA7",
+      "contentZoneCount": 1,
+      "introAnimationStyle": "cardReveal",
+      "zoneStyle": {
+        "backgroundColor": "#292832",
+        "textColor": "#FFF8EF",
+        "cornerRadius": 28,
+        "spacing": 18
+      },
+      "mainFontName": "Georgia",
+      "uiFontName": "BeVietnamPro-Regular",
+      "backgroundImagePath": "Images/uong-nhanh-len-back.png",
+      "backgroundOverlayOpacity": 0.42
     }
   ]
 }

@@ -1,0 +1,184 @@
+{
+  "cards": [
+    {
+      "id": "sau-canh-cua-01",
+      "zones": [
+        {
+          "mainText": "Với Bạn, tình dục trong một mối quan hệ quan trọng đến mức nào? Nó là nhu cầu, cách thể hiện tình yêu, hay điều có thể thiếu mà mối quan hệ vẫn ổn?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-02",
+      "zones": [
+        {
+          "mainText": "Bạn nghĩ thế nào về chuyện quan hệ tình dục trước hôn nhân? Quan điểm ấy đến từ niềm tin cá nhân, gia đình, tôn giáo hay trải nghiệm nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-03",
+      "zones": [
+        {
+          "mainText": "Bạn muốn chuyện thân mật tiến triển theo nhịp độ nào? Có điều gì khiến Bạn cảm thấy một người đang thúc ép quá nhanh?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-04",
+      "zones": [
+        {
+          "mainText": "Điều gì cần có để Bạn cảm thấy đủ an toàn và tin tưởng khi gần gũi với người yêu?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-05",
+      "zones": [
+        {
+          "mainText": "Ranh giới nào của Bạn cần được tôn trọng tuyệt đối trong chuyện tình dục? Nếu người kia vô tình vượt qua ranh giới đó, Bạn muốn họ phản ứng thế nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-06",
+      "zones": [
+        {
+          "mainText": "Bạn có thấy khó nói “không” khi đang ở trong khoảnh khắc thân mật không? Điều gì có thể khiến việc từ chối trở nên dễ dàng hơn?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-07",
+      "zones": [
+        {
+          "mainText": "Bạn từng đồng ý gần gũi chỉ vì sợ người kia thất vọng, giận dỗi hoặc rời bỏ mình chưa? Nếu có, lúc đó Bạn thực sự mong người kia hiểu điều gì?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-08",
+      "zones": [
+        {
+          "mainText": "Bạn mong muốn tần suất gần gũi giữa hai người như thế nào? Nếu nhu cầu của hai người khác nhau nhiều, Bạn nghĩ hai người nên giải quyết ra sao?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-09",
+      "zones": [
+        {
+          "mainText": "Bạn có thoải mái khi là người chủ động không? Bạn muốn người kia thể hiện sự chủ động như thế nào để Bạn cảm thấy được mong muốn mà không bị gây áp lực?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-10",
+      "zones": [
+        {
+          "mainText": "Khi một người muốn gần gũi còn người kia không muốn, điều gì dễ khiến Bạn tổn thương nhất: cảm giác bị từ chối, bị thúc ép, hay nghĩ rằng mình không còn hấp dẫn?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-11",
+      "zones": [
+        {
+          "mainText": "Có mong muốn hoặc sự tò mò nào trong chuyện thân mật mà Bạn ngại nói ra vì sợ bị đánh giá không? Bạn muốn chia sẻ đến mức nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-12",
+      "zones": [
+        {
+          "mainText": "Có trải nghiệm tình cảm hoặc thân mật trong quá khứ nào ảnh hưởng đến cách Bạn nhìn nhận chuyện gần gũi hiện tại không? Bạn muốn chia sẻ điều đó với người yêu ở mức nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-13",
+      "zones": [
+        {
+          "mainText": "Bạn có nỗi bất an nào về cơ thể, ngoại hình hoặc khả năng của mình khiến Bạn khó thả lỏng khi gần gũi không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-14",
+      "zones": [
+        {
+          "mainText": "Bạn nhìn nhận việc xem nội dung khiêu dâm hoặc nội dung gợi dục thế nào? Có ranh giới nào Bạn muốn hai người thống nhất về việc này không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-15",
+      "zones": [
+        {
+          "mainText": "Với Bạn, thế nào là không chung thủy trong chuyện tình dục hoặc thân mật? Nhắn tin gợi dục, gửi ảnh riêng tư, hay xem nội dung nào đó có vượt qua ranh giới của Bạn không?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-16",
+      "zones": [
+        {
+          "mainText": "Bạn nghĩ trách nhiệm tránh thai nên được chia sẻ giữa hai người ra sao? Có rủi ro nào Bạn tuyệt đối không muốn chấp nhận?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-17",
+      "zones": [
+        {
+          "mainText": "Bạn có sẵn lòng cùng người yêu trao đổi về xét nghiệm bệnh lây truyền qua đường tình dục trước khi quan hệ không? Điều gì có thể khiến cuộc trò chuyện đó khó mở lời?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-18",
+      "zones": [
+        {
+          "mainText": "Bạn muốn hai người đặt ra quy tắc gì về ảnh, video hoặc tin nhắn riêng tư? Với Bạn, hành vi nào sẽ là vi phạm nghiêm trọng sự tin tưởng?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-19",
+      "zones": [
+        {
+          "mainText": "Sau khi gần gũi, Bạn thường cần điều gì nhất từ người kia: được ôm, trò chuyện, trấn an hay có không gian riêng?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    },
+    {
+      "id": "sau-canh-cua-20",
+      "zones": [
+        {
+          "mainText": "Nếu sức khỏe, căng thẳng hoặc thay đổi trong cuộc sống khiến nhu cầu thân mật của một người thay đổi lâu dài, Bạn mong hai người đối diện với điều đó thế nào?",
+          "note": "Cả hai cùng trả lời"
+        }
+      ]
+    }
+  ]
+}

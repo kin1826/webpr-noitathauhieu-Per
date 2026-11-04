@@ -4,7 +4,10 @@ const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const BASE_CATEGORIES = ['Tất cả', 'Trải lòng', 'Drinking', 'Thật hay thách'];
 const SETTINGS_KEY = 'noi-ta-thau-hieu.settings.v1';
 const PROGRESS_PREFIX = 'noi-ta-thau-hieu.progress.v1.';
-const defaultSettings = { mode: 'stop', haptics: true, showProgress: true, speed: 'normal', sounds: true, cardTextScale: 1 };
+const CARD_SCALE_MIN = .8;
+const CARD_SCALE_MAX = 1.2;
+const CARD_SCALE_STEP = .05;
+const defaultSettings = { mode: 'stop', haptics: true, showProgress: true, speed: 'normal', sounds: true, cardTextScale: CARD_SCALE_MIN };
 
 let decks = [];
 let cardsByDeck = new Map();
@@ -17,7 +20,12 @@ let navigationBusy = false;
 let optionsReturnFocus = null;
 let activeSound = null;
 const soundPlayers = new Map();
-settings.cardTextScale = Math.min(1.3, Math.max(.9, Number(settings.cardTextScale) || 1));
+const supportsWebP = (() => {
+  try { return document.createElement('canvas').toDataURL('image/webp').startsWith('data:image/webp'); }
+  catch { return false; }
+})();
+let tileImageObserver = null;
+settings.cardTextScale = Math.min(CARD_SCALE_MAX, Math.max(CARD_SCALE_MIN, Number(settings.cardTextScale) || CARD_SCALE_MIN));
 settings.sounds = settings.sounds !== false;
 
 function loadJSON(key, fallback) {
@@ -25,6 +33,17 @@ function loadJSON(key, fallback) {
   catch { return { ...fallback }; }
 }
 function saveJSON(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* Private browsing may disable storage. */ } }
+try {
+  const scaleMigrationKey = `${SETTINGS_KEY}.default-scale-80.v1`;
+  if (localStorage.getItem(scaleMigrationKey) !== 'done') {
+    // The prior default was 100% and could have been persisted alongside other settings.
+    if (Number(settings.cardTextScale) === 1) {
+      settings.cardTextScale = CARD_SCALE_MIN;
+      saveJSON(SETTINGS_KEY, settings);
+    }
+    localStorage.setItem(scaleMigrationKey, 'done');
+  }
+} catch { /* Storage may be disabled in private browsing. */ }
 function normalized(value) { return String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase(); }
 function playEffect(name) {
   if (!settings.sounds) return;
@@ -46,7 +65,16 @@ function pulseHaptic(duration = 12) {
 }
 function assetFor(deck, cover = false) {
   if (cover && deck.coverAsset) return `./assets/${/\.[a-z0-9]+$/i.test(deck.coverAsset) ? deck.coverAsset : `${deck.coverAsset}.png`}`;
-  return deck.backgroundImagePath ? `./assets/${deck.backgroundImagePath.split('/').pop()}` : null;
+  if (!deck.backgroundImagePath) return null;
+  const filename = deck.backgroundImagePath.split('/').pop();
+  return `./assets/${filename.replace(/\.png$/i, supportsWebP ? '.webp' : '.jpg')}`;
+}
+function loadTileImage(element) {
+  const source = element.dataset.imageSource;
+  if (!source) return;
+  element.style.backgroundImage = `url("${source}")`;
+  delete element.dataset.imageSource;
+  tileImageObserver?.unobserve(element);
 }
 function rgbaFromHex(hex, alpha = 1) {
   const match = /^#([\da-f]{2})([\da-f]{2})([\da-f]{2})$/i.exec(hex ?? '');
@@ -92,8 +120,7 @@ async function loadDecks() {
     const indexResponse = await fetch('./data/deck-index.json');
     if (!indexResponse.ok) throw new Error('Không thể đọc danh sách bộ bài.');
     const index = await indexResponse.json();
-    const valid = [];
-    for (const deck of index.decks ?? []) {
+    const results = await Promise.all((index.decks ?? []).map(async deck => {
       try {
         const cardResponse = await fetch(`./data/${encodeURIComponent(deck.cardFile)}`);
         if (!cardResponse.ok) throw new Error('Không thể đọc các lá bài.');
@@ -102,10 +129,10 @@ async function loadDecks() {
         const ids = cards?.map(card => card.id) ?? [];
         if (!Array.isArray(cards) || cards.length !== deck.cardCount || new Set(ids).size !== cards.length || cards.some(card => !Array.isArray(card.zones) || card.zones.length !== deck.contentZoneCount || card.zones.some(zone => !zone.mainText))) throw new Error('Dữ liệu bộ bài chưa hợp lệ.');
         cardsByDeck.set(deck.id, cards);
-        valid.push(deck);
-      } catch (error) { console.error(`Bộ bài ${deck.id}:`, error); }
-    }
-    decks = valid;
+        return deck;
+      } catch (error) { console.error(`Bộ bài ${deck.id}:`, error); return null; }
+    }));
+    decks = results.filter(Boolean);
     if (!decks.length) showError('Chưa thể tải bộ bài. Hãy thử tải lại trang.');
     renderFilters();
     renderDecks();
@@ -126,13 +153,22 @@ function renderFilters() {
 function renderDecks() {
   const query = normalized($('#deck-search').value.trim());
   const matches = decks.filter(deck => (selectedCategory === 'Tất cả' || deck.category === selectedCategory) && normalized([deck.title, deck.subtitle, deck.category, ...(deck.tags ?? [])].join(' ')).includes(query));
-  const grid = $('#deck-grid'); grid.replaceChildren();
+  const grid = $('#deck-grid'); tileImageObserver?.disconnect(); grid.replaceChildren();
+  if ('IntersectionObserver' in window) {
+    tileImageObserver = new IntersectionObserver(entries => {
+      for (const entry of entries) if (entry.isIntersecting) loadTileImage(entry.target);
+    }, { rootMargin: '280px 0px' });
+  } else tileImageObserver = null;
   for (const deck of matches) {
     const button = document.createElement('button'); button.type = 'button'; button.className = `deck-tile${deck.backgroundImagePath ? ' deck-tile-art' : ''}`;
     button.setAttribute('aria-label', `Mở bộ bài ${deck.title}, ${deck.cardCount} lá`);
     const image = document.createElement('span'); image.className = 'deck-tile-image';
-    if (assetFor(deck, true)) image.style.backgroundImage = `url("${assetFor(deck, true)}")`;
-    else image.style.backgroundImage = `linear-gradient(140deg,${deck.backgroundColor ?? '#292832'},${deck.gradientEndColor ?? '#39313B'})`;
+    const tileAsset = assetFor(deck, true);
+    if (tileAsset) {
+      image.dataset.imageSource = tileAsset;
+      if (tileImageObserver) tileImageObserver.observe(image);
+      else loadTileImage(image);
+    } else image.style.backgroundImage = `linear-gradient(140deg,${deck.backgroundColor ?? '#292832'},${deck.gradientEndColor ?? '#39313B'})`;
     const shade = document.createElement('span'); shade.className = 'deck-tile-shade';
     if (deck.backgroundImagePath) {
       const tileBase = deck.backgroundColor ?? '#171B22';
@@ -253,6 +289,7 @@ function renderCard(cardData, announce = true) {
   const content = document.createElement('span'); content.className = 'card-front-content';
   const top = document.createElement('span'); top.className = 'card-front-top'; top.textContent = `✦  ${selectedDeck.title.toUpperCase()}  ✦`;
   const multiZone = cardData.zones.length > 1;
+  content.classList.toggle('two-zone-layout', multiZone);
   const zones = document.createElement('span'); zones.className = `card-front-zones${multiZone ? ' two-zone' : ''}`;
   for (const zoneData of cardData.zones) {
     const zone = document.createElement('span'); zone.className = `card-zone${multiZone ? ' two-zone' : ''}`;
@@ -379,18 +416,18 @@ function openOptions() {
 function closeOptions() { $('#options-overlay').hidden = true; document.body.style.overflow = ''; optionsReturnFocus?.focus(); }
 function applyCardTextScale() {
   if (!selectedDeck) return;
-  const scale = Math.min(1.3, Math.max(.9, Number(settings.cardTextScale) || 1));
+  const scale = Math.min(CARD_SCALE_MAX, Math.max(CARD_SCALE_MIN, Number(settings.cardTextScale) || CARD_SCALE_MIN));
   settings.cardTextScale = scale;
   $('#play').style.setProperty('--deck-card-text-scale', String(scale));
   $('#card-scale-label').textContent = `${Math.round(scale * 100)}%`;
-  $('#scale-down').disabled = scale <= .9;
-  $('#scale-up').disabled = scale >= 1.3;
+  $('#scale-down').disabled = scale <= CARD_SCALE_MIN;
+  $('#scale-up').disabled = scale >= CARD_SCALE_MAX;
   $('#font-preview').style.fontFamily = selectedDeck.mainFontName === 'Georgia' ? 'Georgia, serif' : 'Cormorant, Georgia, serif';
   $('#font-preview').style.fontSize = `${(selectedDeck.contentZoneCount === 2 ? 21 : 30) * scale}px`;
 }
 function updateSettings(patch) {
   settings = { ...settings, ...patch };
-  settings.cardTextScale = Math.min(1.3, Math.max(.9, Number(settings.cardTextScale) || 1));
+  settings.cardTextScale = Math.min(CARD_SCALE_MAX, Math.max(CARD_SCALE_MIN, Number(settings.cardTextScale) || CARD_SCALE_MIN));
   saveJSON(SETTINGS_KEY, settings);
   applyCardTextScale(); updateProgress();
 }
@@ -414,8 +451,8 @@ document.querySelectorAll('input[name="draw-speed"]').forEach(input => input.add
 $('#haptics-toggle').addEventListener('change', event => updateSettings({ haptics: event.target.checked }));
 $('#sounds-toggle').addEventListener('change', event => updateSettings({ sounds: event.target.checked }));
 $('#progress-toggle').addEventListener('change', event => updateSettings({ showProgress: event.target.checked }));
-$('#scale-down').addEventListener('click', () => changeCardTextScale(-.05));
-$('#scale-up').addEventListener('click', () => changeCardTextScale(.05));
+$('#scale-down').addEventListener('click', () => changeCardTextScale(-CARD_SCALE_STEP));
+$('#scale-up').addEventListener('click', () => changeCardTextScale(CARD_SCALE_STEP));
 $('#reset-button').addEventListener('click', openConfirmation);
 $('#confirm-cancel').addEventListener('click', closeConfirmation);
 $('#confirm-reset').addEventListener('click', () => { resetProgress(); closeConfirmation(); closeOptions(); });
@@ -423,3 +460,7 @@ document.addEventListener('keydown', event => { if (event.key === 'Escape') { if
 
 loadDecks();
 if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
+function syncViewportHeight() { document.documentElement.style.setProperty('--app-height', `${window.innerHeight}px`); }
+syncViewportHeight();
+window.addEventListener('resize', () => requestAnimationFrame(syncViewportHeight), { passive: true });
+window.addEventListener('orientationchange', () => requestAnimationFrame(syncViewportHeight), { passive: true });
